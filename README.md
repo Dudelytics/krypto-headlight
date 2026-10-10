@@ -3,6 +3,13 @@
 
 Öffentliche, kostenlose Wochenberichte von Dudelytics. Herausgeber: Axel Lämmle / Dudelytics.
 
+## Websites
+- Dudelytics: https://dudelytics.com/
+- Krypto-Headlight (aktuell veröffentlicht): https://dudelytics.github.io/krypto-headlight/
+- Research Hub: https://dudelytics.com/research/
+
+Die Dudelytics-Hauptdomain bleibt bei STRATO. Eine spätere Headlight-Subdomain wird erst nach vollständiger Domain- und HTTPS-Prüfung als kanonische Adresse aktiviert. Das optionale GitHub-Repository-Feld „Website“ kann auf die Headlight-Adresse zeigen; es steuert nicht die GitHub-Pages-Domain.
+
 ## Redaktion
 Die öffentliche Website liegt in `docs/`. Freigegebene Ausgaben werden als Markdown-Dateien in `docs/_posts/YYYY-MM-DD-krypto-headlight.md` veröffentlicht. GitHub Pages baut die Seite aus `main /docs`.
 
