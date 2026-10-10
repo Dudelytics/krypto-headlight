@@ -1,6 +1,6 @@
 # STRATO integration — prepared, NOT installed
 Status: 2026-10-10. GitHub Pages is live at https://dudelytics.github.io/krypto-headlight/.
-The runtime failed before STRATO navigation: native credential state cannot be safely resumed.
+A fresh Cloud Browser runtime successfully signed in to STRATO and navigated WebFTP on 2026-10-10. It then failed when starting the download of the original site.php: retained browser data remains restricted after native credential delivery; the runtime reset, and rebinding failed with native credential state cannot be safely resumed. Original-byte backup and installation did not complete.
 No STRATO upload, source modification, or DNS change has been performed.
 
 ## Intended scope
@@ -24,7 +24,8 @@ Use secure browser authentication if required; never request or expose credentia
 
 In the authenticated session:
 - Read the actual public webroot and current Research Hub and shared navigation source.
-- Prior history identifies private/site/site.php as a shared public renderer; confirm the current implementation before patching.
+- WebFTP confirmed /dudelytics as the website directory and /dudelytics/private/site/site.php (31.88 KB, displayed modification date 2026-10-04) as the candidate shared renderer. The unrelated /private/site directory outside /dudelytics contains an old backup, not this renderer. Download and inspect the current implementation before patching; source bytes have not yet been obtained.
+- The /dudelytics directory also contains research/ and index.php; inspect both because homepage navigation may use its own renderer.
 - Capture original bytes, SHA-256 hashes, file modes, and a private backup manifest. Verify backups cannot be downloaded publicly.
 - Inspect exact insertion anchors and require unique matches; abort on unknown structure, unexpected existing /headlight/ content, or concurrent source changes.
 - Add the gateway and card; add one public navigation entry using the existing locale-aware mechanism. Link label: Krypto-Headlight. Do not add another language version or alter auth logic.
@@ -35,7 +36,7 @@ In the authenticated session:
 
 ## GitHub address check
 The main website and Research Hub are referenced in README and the public Headlight pages.
-Repository metadata homepage was null when checked; it is optional and can later point to the live Headlight URL.
+Repository metadata homepage was set and verified on 2026-10-10: https://dudelytics.github.io/krypto-headlight/.
 The main STRATO domain dudelytics.com must not be entered as the Pages custom domain.
 
 ## Custom subdomain sequence
@@ -48,6 +49,6 @@ The main STRATO domain dudelytics.com must not be entered as the Pages custom do
 - Do not upload a CNAME file alone as a substitute for the Pages custom-domain setting.
 
 ## Comments and publishing
-GitHub has_discussions was false at the address check. Enable the repository feature using administrative access.
-Do not report comments ready before a public discussion and a signed-in comment have been tested.
+GitHub Discussions was enabled and verified on 2026-10-10. Welcome thread: https://github.com/Dudelytics/krypto-headlight/discussions/1. A clearly labelled signed-in technical test comment was saved (discussioncomment-18849061). An anonymous HTTP request returned 200 and included both welcome text and test comment. No weekly report was published.
+Headlight homepage was visually verified in the warm light Dudelytics design with white cards and rust-red accents.
 Weekly drafts are already scheduled for Saturdays from 2026-10-17. Publication remains after Axel's editorial approval.
