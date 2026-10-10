@@ -1,0 +1,12 @@
+---
+title: "Die Wochenlage des produktiven Kryptomarkts"
+---
+<section class="hero"><p class="eyebrow">Öffentlich · Kostenlos · Jeden Samstag</p><h1>Krypto-Headlight</h1><p class="lead">Die Wochenlage des produktiven Kryptomarkts.</p><p>Was bewegt den DPMI? Welche Sektoren gewinnen oder verlieren? Was zeigen Stimmung und Marktstress? Wir ordnen unsere Daten ein – mit Quellen und sichtbaren Grenzen.</p></section>
+{% assign latest = site.posts.first %}
+{% if latest %}
+<section class="card"><p class="eyebrow">Aktuelle Ausgabe · {{ latest.date | date: "%d.%m.%Y" }}</p><h2><a href="{{ latest.url | relative_url }}">{{ latest.title | escape }}</a></h2><p>{{ latest.description | escape }}</p><a class="button" href="{{ latest.url | relative_url }}">Wochenlage lesen</a></section>
+{% else %}
+<section class="card"><h2>Der Headlight startet</h2><p>Die erste Markt-Ausgabe wird nach redaktioneller Prüfung veröffentlicht. Bis dahin findest du unsere öffentlichen Daten und die Methodik im Research Hub.</p><a class="button" href="https://dudelytics.com/research/">Öffentliche Daten ansehen</a></section>
+{% endif %}
+<section class="grid"><div><h2>Daten mit Kontext</h2><p>DPMI, Sektoren, Fear &amp; Greed und DVIX. Vergleichbare Zeiträume, geprüfte Datenstände und klare Trennung von Fakten und Hypothesen.</p></div><div><h2>Ein Gespräch, kein Monolog</h2><p>Fragen, Kritik und Gegenbelege sind willkommen.</p><a href="https://github.com/Dudelytics/krypto-headlight/discussions">Diskussionen auf GitHub</a></div></section>
+<p><a href="{{ '/archiv/' | relative_url }}">Alle Ausgaben im Archiv →</a></p>

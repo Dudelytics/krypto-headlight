@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
+<meta name="description" content="{{ page.description | default: site.description | escape }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+<link rel="alternate" type="application/atom+xml" title="Krypto-Headlight" href="{{ '/feed.xml' | absolute_url }}">
+<meta name="theme-color" content="#102d28">
+</head>
+<body>
+<header><a class="brand" href="{{ '/' | relative_url }}">Dudelytics <span>Krypto-Headlight</span></a>
+<nav aria-label="Hauptnavigation"><a href="{{ '/' | relative_url }}">Aktuell</a><a href="{{ '/archiv/' | relative_url }}">Archiv</a><a href="{{ '/ueber/' | relative_url }}">Über den Bericht</a><a href="https://dudelytics.com/research/">Research Hub</a></nav></header>
+<main id="inhalt">{{ content }}</main>
+<footer><p>Dudelytics · Daten verstehen. Quellen sehen. Entscheidungen selbst treffen.</p>
+<p><a href="https://dudelytics.com/impressum/">Impressum</a> · <a href="https://dudelytics.com/datenschutz/">Datenschutz</a> · <a href="https://dudelytics.com/lizenzen/">Lizenzen</a> · <a href="{{ '/feed.xml' | relative_url }}">Atom-Feed</a> · <a href="https://github.com/Dudelytics/krypto-headlight">GitHub</a></p>
+<p class="small">Keine Anlageberatung. CoinGecko ist Rohdatenanbieter, nicht Herausgeber oder Sponsor. Diese Berichtsseite wird bei GitHub Pages gehostet.</p></footer>
+</body></html>

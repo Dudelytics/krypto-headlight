@@ -1,0 +1,16 @@
+title: "Dudelytics Krypto-Headlight"
+description: "Die Wochenlage des produktiven Kryptomarkts. Öffentliche Berichte mit Quellen und Diskussion."
+url: "https://dudelytics.github.io"
+baseurl: "/krypto-headlight"
+lang: de
+timezone: Europe/Berlin
+markdown: kramdown
+permalink: /ausgaben/:year-:month-:day/
+future: false
+unpublished: false
+exclude: [README.md]
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<article>
+<p class="eyebrow">Wochenlage · {{ page.date | date: "%d.%m.%Y" }}</p>
+<h1>{{ page.title | escape }}</h1>
+<dl class="meta"><dt>Vergleichszeitraum</dt><dd>{{ page.period | escape }}</dd><dt>Datenstand</dt><dd>{{ page.data_as_of | escape }}</dd><dt>Methodik</dt><dd>{{ page.methodology | escape }}</dd></dl>
+<div class="prose">{{ content }}</div>
+<section class="card" aria-labelledby="kommentare"><h2 id="kommentare">Fragen, Kritik und Gegenbelege</h2><p>Diskutiere diese Ausgabe auf GitHub. Lesen ist ohne Anmeldung möglich; zum Kommentieren brauchst du ein GitHub-Konto. Bitte keine privaten Daten oder Zugangsdaten posten.</p>
+<a class="button" href="{{ page.discussion_url | default: 'https://github.com/Dudelytics/krypto-headlight/discussions' | escape }}">Zur Diskussion dieser Ausgabe</a></section>
+</article>

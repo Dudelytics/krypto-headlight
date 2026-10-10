@@ -1,0 +1,6 @@
+---
+title: "Ausgabenarchiv"
+permalink: /archiv/
+---
+<h1>Ausgabenarchiv</h1><p>Jede veröffentlichte Ausgabe bleibt unter ihrer eigenen Adresse erreichbar. Korrekturen werden in der betreffenden Ausgabe ausgewiesen.</p>
+{% if site.posts.size > 0 %}<ul class="archive">{% for post in site.posts %}<li><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d.%m.%Y" }}</time> <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a><p>{{ post.description | escape }}</p></li>{% endfor %}</ul>{% else %}<p>Noch keine Markt-Ausgabe veröffentlicht.</p>{% endif %}
