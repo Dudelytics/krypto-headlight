@@ -1,0 +1,110 @@
+{
+  "edition": "2026-10-10",
+  "publisher": "Dudelytics",
+  "kind": "Editorial snapshot; calculated index values, not provider raw datasets",
+  "dpmi": {
+    "timestamp": "2026-10-10T10:27:05Z",
+    "value": 133.706194,
+    "week_reference_value": 140.523864,
+    "week_reference_timestamp": "2026-10-03T10:22:05Z",
+    "change_7d_percent": -4.8516,
+    "change_24h_percent": 0.5265,
+    "methodology": "DPMI-1.0"
+  },
+  "dpmi_hq": {
+    "timestamp": "2026-10-10T10:27:05Z",
+    "value": 133.078722,
+    "week_reference_value": 139.517281,
+    "week_reference_timestamp": "2026-10-03T10:22:05Z",
+    "change_7d_percent": -4.614882797207032
+  },
+  "sectors": {
+    "timestamp": "2026-10-10T10:27:05Z",
+    "methodology": "DPMI-SF-1.1",
+    "change_7d_percent": {
+      "defi": -6.107,
+      "rwa": -1.5819,
+      "ai": -6.2153,
+      "depin": -1.9596,
+      "interoperability": 2.8765,
+      "privacy_zk": -2.9506,
+      "smart_contract_platforms": -2.8437
+    }
+  },
+  "dudelytics_fear_greed": {
+    "timestamp": "2026-10-10T10:27:05Z",
+    "score": 50.34,
+    "pulse_score": 56.66,
+    "week_score": 44.47,
+    "methodology": "DPMI-FG-0.2-TEMPORAL-WARMUP"
+  },
+  "dvix": {
+    "timestamp": "2026-10-09T11:27:05Z",
+    "score": 67.7853,
+    "methodology": "DVIX-0.1",
+    "fresh_at_editorial_capture": false
+  },
+  "benchmark": {
+    "timestamp": "2026-10-10T00:12:00Z",
+    "start_date": "2026-09-02",
+    "base": 100,
+    "since_start_percent": {
+      "DPMI": 8.1,
+      "BTC": 6.65,
+      "total_market": 6.71
+    },
+    "rolling_30d_percent": {
+      "DPMI": 4.47,
+      "BTC": 5.47
+    }
+  },
+  "hitlist": {
+    "source": "Dudelytics seven-day ranking, editorial screenshot",
+    "captured_at": "2026-10-10T16:06:00+02:00",
+    "scope": "broader Dudelytics universe, not main DPMI components",
+    "winners": [
+      {
+        "symbol": "STRK",
+        "change_7d_percent": 64.84
+      },
+      {
+        "symbol": "KAIA",
+        "change_7d_percent": 52.5
+      },
+      {
+        "symbol": "ERA",
+        "change_7d_percent": 30.32
+      },
+      {
+        "symbol": "W",
+        "change_7d_percent": 28.89
+      },
+      {
+        "symbol": "JUP",
+        "change_7d_percent": 15.35
+      }
+    ],
+    "losers": [
+      {
+        "symbol": "VVV",
+        "change_7d_percent": -18.92
+      },
+      {
+        "symbol": "UNI",
+        "change_7d_percent": -18.11
+      },
+      {
+        "symbol": "KITE",
+        "change_7d_percent": -14.69
+      },
+      {
+        "symbol": "SMT",
+        "change_7d_percent": -14.57
+      },
+      {
+        "symbol": "SKY",
+        "change_7d_percent": -13.1
+      }
+    ]
+  }
+}
