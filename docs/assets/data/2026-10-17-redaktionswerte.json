@@ -1,0 +1,217 @@
+{
+  "edition": "2026-10-17",
+  "publisher": "Dudelytics",
+  "kind": "Editorial snapshot; calculated index values and derived comparisons, not provider raw datasets",
+  "period": {
+    "start_target_utc": "2026-10-10T00:00:00Z",
+    "end_target_utc": "2026-10-17T00:00:00Z",
+    "start_dpmi_source_utc": "2026-10-09T23:57:04Z",
+    "end_dpmi_source_utc": "2026-10-16T23:52:07Z"
+  },
+  "indices": {
+    "dpmi": {
+      "start_value": 132.960953,
+      "end_value": 127.775079,
+      "change_percent": -3.9002984583,
+      "methodology": "DPMI-1.0",
+      "kind": "observed"
+    },
+    "dpmi_hq": {
+      "start_value": 132.327535,
+      "end_value": 127.342369,
+      "change_percent": -3.767293027864538,
+      "methodology": "DPMI-HQ-1.0",
+      "kind": "observed"
+    }
+  },
+  "sectors": {
+    "methodology": "DPMI-SF-1.1",
+    "change_percent": {
+      "defi": -5.682336462562088,
+      "rwa": -3.5285817103225647,
+      "ai": -3.3497466469630477,
+      "depin": -4.461731694413629,
+      "interoperability": -6.346986731794924,
+      "privacy_zk": 12.277968227254043,
+      "smart_contract_platforms": -2.8012561142192194
+    }
+  },
+  "daily_hq_comparison": [
+    {
+      "target_date": "2026-10-10",
+      "source_timestamp": "2026-10-09T23:57:04Z",
+      "dpmi_value": 132.960953,
+      "hq_value": 132.327535
+    },
+    {
+      "target_date": "2026-10-11",
+      "source_timestamp": "2026-10-10T23:57:05Z",
+      "dpmi_value": 134.25289,
+      "hq_value": 133.821921,
+      "dpmi_return_percent": 0.9716664711330925,
+      "hq_return_percent": 1.1293084239799356
+    },
+    {
+      "target_date": "2026-10-12",
+      "source_timestamp": "2026-10-11T23:57:05Z",
+      "dpmi_value": 135.884129,
+      "hq_value": 135.682577,
+      "dpmi_return_percent": 1.215049448842409,
+      "hq_return_percent": 1.3903970187365777
+    },
+    {
+      "target_date": "2026-10-13",
+      "source_timestamp": "2026-10-12T23:52:07Z",
+      "dpmi_value": 129.540478,
+      "hq_value": 129.109518,
+      "dpmi_return_percent": -4.668426729953135,
+      "hq_return_percent": -4.844438501488657
+    },
+    {
+      "target_date": "2026-10-14",
+      "source_timestamp": "2026-10-13T23:57:04Z",
+      "dpmi_value": 131.394804,
+      "hq_value": 130.650231,
+      "dpmi_return_percent": 1.4314645341975574,
+      "hq_return_percent": 1.1933380465412258
+    },
+    {
+      "target_date": "2026-10-15",
+      "source_timestamp": "2026-10-14T23:52:07Z",
+      "dpmi_value": 128.863006,
+      "hq_value": 127.851707,
+      "dpmi_return_percent": -1.9268631048758866,
+      "hq_return_percent": -2.1419969781760195
+    },
+    {
+      "target_date": "2026-10-16",
+      "source_timestamp": "2026-10-15T23:52:07Z",
+      "dpmi_value": 129.077815,
+      "hq_value": 128.741609,
+      "dpmi_return_percent": 0.16669563024160894,
+      "hq_return_percent": 0.6960423297281526
+    },
+    {
+      "target_date": "2026-10-17",
+      "source_timestamp": "2026-10-16T23:52:07Z",
+      "dpmi_value": 127.775079,
+      "hq_value": 127.342369,
+      "dpmi_return_percent": -1.0092640629220329,
+      "hq_return_percent": -1.0868591831876273
+    }
+  ],
+  "benchmark": {
+    "methodology": "DPMI-BENCH-1.3",
+    "start_date": "2026-09-02",
+    "weekly_changes_percent": {
+      "dpmi": -3.9002984583,
+      "btc": -1.2603948024638822,
+      "eth": -2.6207898858776058,
+      "total_market": -1.4823506585161628
+    },
+    "since_start_percent": {
+      "dpmi": 3.8860849999999942,
+      "btc": 5.305355000000006,
+      "total_market": 5.1247630000000015
+    }
+  },
+  "fear_greed": {
+    "timestamp": "2026-10-17T06:12:07Z",
+    "methodology": "DPMI-FG-0.2-TEMPORAL-WARMUP",
+    "score": 42.44,
+    "pulse_score": 33.33,
+    "positive_assets_24h_percent": 23.6842,
+    "scope": "Dudelytics Productive Market Universe; not a whole-crypto-market sentiment index"
+  },
+  "dvix": {
+    "timestamp": "2026-10-17T06:12:07Z",
+    "methodology": "DVIX-0.2",
+    "score": 48.5165,
+    "quality": {
+      "grade": "degraded",
+      "missing_anchor_count": 0,
+      "expected_anchor_count": 368,
+      "coverage_percent": 100,
+      "missing_per_series": {
+        "main": 0,
+        "defi": 0,
+        "rwa": 0,
+        "ai": 0,
+        "depin": 0,
+        "interoperability": 0,
+        "privacy_zk": 0,
+        "smart_contract_platforms": 0
+      },
+      "longest_missing_run_hours": 0,
+      "thresholds_are_experimental": true,
+      "reasons": [
+        "long_observation_gap_in_seven_day_high"
+      ],
+      "bridge_shock_suspected": false,
+      "max_bridge_change_percent": 0,
+      "bridge_movements": [],
+      "valid_rv_returns": 24,
+      "valid_pairwise_return_counts": {
+        "defi:rwa": 48,
+        "defi:ai": 48,
+        "defi:depin": 48,
+        "defi:interoperability": 48,
+        "defi:privacy_zk": 48,
+        "defi:smart_contract_platforms": 48,
+        "rwa:ai": 48,
+        "rwa:depin": 48,
+        "rwa:interoperability": 48,
+        "rwa:privacy_zk": 48,
+        "rwa:smart_contract_platforms": 48,
+        "ai:depin": 48,
+        "ai:interoperability": 48,
+        "ai:privacy_zk": 48,
+        "ai:smart_contract_platforms": 48,
+        "depin:interoperability": 48,
+        "depin:privacy_zk": 48,
+        "depin:smart_contract_platforms": 48,
+        "interoperability:privacy_zk": 48,
+        "interoperability:smart_contract_platforms": 48,
+        "privacy_zk:smart_contract_platforms": 48
+      },
+      "min_shared_correlation_returns": 48,
+      "seven_day_max_gap_hours": 7.816
+    },
+    "comparison": {
+      "timestamp": "2026-10-15T06:12:12Z",
+      "score": 74.0324,
+      "methodology": "DVIX-0.2"
+    },
+    "methodology_transition_utc": "2026-10-13T10:42:08Z"
+  },
+  "etf_flows_usd_millions": {
+    "period": "2026-10-12 to 2026-10-16",
+    "btc": -228.4,
+    "eth": -320.1,
+    "sol": -25.5,
+    "previous_week": {
+      "period": "2026-10-05 to 2026-10-09",
+      "btc": -678.9,
+      "eth": -542.2,
+      "sol": -25.0
+    },
+    "source_urls": [
+      "https://farside.co.uk/btc/",
+      "https://farside.co.uk/eth/",
+      "https://farside.co.uk/sol/"
+    ]
+  },
+  "gold": {
+    "source": "Reuters",
+    "timestamp": "2026-10-16T18:07:00Z",
+    "week_to_date_percent": -0.7,
+    "not_final_close": true
+  },
+  "liquidations": {
+    "article_published_utc": "2026-10-15T03:31:00Z",
+    "window": "preceding 24 hours, not weekly total",
+    "total_usd_millions": 942.1,
+    "long_usd_millions": 863.3,
+    "source": "BeInCrypto citing Coinglass"
+  }
+}
