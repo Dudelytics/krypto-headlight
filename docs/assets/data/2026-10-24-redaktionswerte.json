@@ -1,0 +1,97 @@
+{
+  "schema": "dudelytics.headlight.editorial-evidence.v1",
+  "edition": "2026-10-24",
+  "note": "Frozen editorial values from verified public observations. Capture time is not source time. No provider raw prices or compositions.",
+  "archive_commit": "39a3735d69afb8a70d9b62a5a21a925947efd0bc",
+  "comparison": {
+    "target_dates": [
+      "2026-10-17",
+      "2026-10-24"
+    ],
+    "dpmi_source_timestamps": [
+      "2026-10-16T23:52:07Z",
+      "2026-10-23T23:57:07Z"
+    ],
+    "dpmi_values": [
+      127.775079,
+      124.878362
+    ],
+    "hq_values": [
+      127.342369,
+      124.223063
+    ],
+    "percent_changes": {
+      "dpmi": -2.267043794979773,
+      "hq": -2.449542932564741,
+      "btc": -0.516838,
+      "eth": -1.479409,
+      "total_market": -0.857499
+    },
+    "sector_values": {
+      "ai": [
+        140.570739,
+        135.40606
+      ],
+      "defi": [
+        126.48976,
+        120.862032
+      ],
+      "smart_contract_platforms": [
+        117.209788,
+        111.370864
+      ],
+      "rwa": [
+        110.582775,
+        103.94653
+      ],
+      "depin": [
+        159.556297,
+        149.60321
+      ],
+      "interoperability": [
+        136.591811,
+        127.223769
+      ],
+      "privacy_zk": [
+        130.624497,
+        113.792632
+      ]
+    },
+    "kind": "observed",
+    "interpolated": false
+  },
+  "indicators": {
+    "source_timestamp": "2026-10-24T06:37:06Z",
+    "fear_greed": 35.78,
+    "pulse": 26.15,
+    "trend_7d": 39.39,
+    "regime_30d": 43.56,
+    "positive_assets_24h_percent": 18.4211,
+    "median_change_24h_percent": -2.89646,
+    "dvix": 40.0132,
+    "dvix_fresh_at_retrieval": true,
+    "dvix_quality_grade": "normal",
+    "dvix_missing_anchor_count": 0
+  },
+  "etf": {
+    "period": "2026-10-19/2026-10-23",
+    "unit": "USD million",
+    "btc": 301.2,
+    "eth": -220.7,
+    "sol": -17.6,
+    "provisional": true,
+    "note": "Published daily totals; Friday includes missing individual fund reports. Missing entries not independently treated as zero.",
+    "source_urls": [
+      "https://farside.co.uk/btc/",
+      "https://farside.co.uk/eth/",
+      "https://farside.co.uk/sol/"
+    ]
+  },
+  "source_urls": [
+    "https://dudelytics.com/data/dpmi/benchmark.json",
+    "https://dudelytics.com/data/dpmi-holder-quality/history.json",
+    "https://dudelytics.com/data/dpmi/sector-family.php?view=history",
+    "https://dudelytics.com/data/dpmi/fear-greed.php",
+    "https://dudelytics.com/data/dpmi/dvix.php"
+  ]
+}
