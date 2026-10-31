@@ -35,3 +35,13 @@ Die Statistik erfasst technisch erreichbare Aufrufe, soweit sie nicht ausgeschal
 ## Hosting
 
 Die Headlight-Seiten werden über GitHub Pages ausgeliefert. Dabei verarbeitet GitHub notwendige Verbindungsdaten unabhängig von der Umami-Messung. Informationen dazu enthält die [GitHub-Datenschutzerklärung](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). Die Angaben zu STRATO in der allgemeinen Dudelytics-Erklärung beschreiben die dort gehostete Hauptseite.
+
+## Krypto-Headlight per E-Mail
+
+Das kostenlose E-Mail-Abo ist freiwillig und unabhängig vom Lesen der Website. Für Anmeldung, Bestätigung, Versand und Abmeldung verwenden wir Brevo. Im Anmeldeformular fragen wir nur deine E-Mail-Adresse und deine Einwilligung ab. Dabei handelt es sich um personenbezogene Daten; die Aussagen zur datensparsamen Lesestatistik ersetzen diese gesonderten Hinweise nicht.
+
+Nach der Anmeldung erhältst du eine Bestätigungsmail. Erst wenn du deren Link anklickst, wird deine Adresse in die Headlight-Versandliste aufgenommen. Wir verwenden sie für die neuen Headlight-Ausgaben. Du kannst deine Einwilligung jederzeit für die Zukunft über den Abmeldelink in jeder Ausgabe oder per Nachricht an webmaster@dudelytics.com widerrufen.
+
+Brevo verarbeitet hierfür auch den Anmelde- und Bestätigungsstatus sowie technische Verbindungs- und Versanddaten, etwa Zeitpunkte, IP-Adressen und Zustellfehler. Diese dienen dem Betrieb, der Zustellung, dem Schutz vor Missbrauch und dem Nachweis der Anmeldung. Die Adresse wird während des Abonnements für den Versand verwendet. Nach einer Abmeldung wird sie für weitere Newsletter gesperrt; ein Sperrvermerk und erforderliche Nachweise können darüber hinaus erhalten bleiben, damit die Abmeldung beachtet wird. Eine Abmeldung ist deshalb nicht automatisch die vollständige Löschung aller technischen Protokolle. Lösch- und Auskunftsanfragen kannst du an die oben genannte Kontaktadresse richten.
+
+Informationen zur Verarbeitung durch den Versanddienst findest du in der [Datenschutzerklärung von Brevo](https://www.brevo.com/de/legal/privacypolicy/). Das Formular wird auf einer Brevo-Domain geöffnet; Abonnentendaten werden nicht im öffentlichen GitHub-Repository gespeichert.
