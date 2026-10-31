@@ -1,0 +1,9 @@
+{% if site.headlight_newsletter.enabled and site.headlight_newsletter.signup_url != "" %}
+<section class="card" aria-labelledby="newsletter-title">
+<p class="eyebrow">Kostenlos ins Postfach</p>
+<h2 id="newsletter-title">Dein Samstag. Dein Headlight.</h2>
+<p>Eine bewegte Woche, ein klarer Blick: Der Dude bringt dir die neue Wochenanalyse ins Postfach – mit unseren Daten, den wichtigen Geschichten und dem Guten zum Schluss.</p>
+<a class="button" href="{{ site.headlight_newsletter.signup_url | escape }}">Headlight per E-Mail abonnieren</a>
+<p class="small">Wir brauchen nur deine E-Mail-Adresse. Du bestätigst dein Abo per E-Mail und kannst dich jederzeit über den Link in jeder Ausgabe abmelden. Die Anmeldung erfolgt über Brevo.</p>
+</section>
+{% endif %}

@@ -8,3 +8,4 @@ layout: default
 <section class="card" aria-labelledby="kommentare"><h2 id="kommentare">Fragen, Kritik und Gegenbelege</h2><p>Diskutiere diese Ausgabe auf GitHub. Lesen ist ohne Anmeldung möglich; zum Kommentieren brauchst du ein GitHub-Konto. Bitte keine privaten Daten oder Zugangsdaten posten.</p>
 <a class="button" href="{{ page.discussion_url | default: 'https://github.com/Dudelytics/krypto-headlight/discussions' | escape }}">{% if page.discussion_url contains '/discussions/' %}Zur Diskussion dieser Ausgabe{% else %}Zu den Headlight-Diskussionen{% endif %}</a></section>
 </article>
+{% include newsletter.html %}

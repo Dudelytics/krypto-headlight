@@ -20,3 +20,8 @@ headlight_analytics:
   enabled: true
   website_id: "1a820d9a-8f11-44fc-acc3-4d289b29587a"
   script_url: "https://cloud.umami.is/script.js"
+
+# Enable only after confirmed DOI, sender authentication and unsubscribe test.
+headlight_newsletter:
+  enabled: false
+  signup_url: ""
