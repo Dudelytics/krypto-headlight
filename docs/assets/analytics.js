@@ -1,4 +1,4 @@
-/* Headlight: explicit opt-in per page; no visitor IDs or browser storage. */
+/* Headlight: default-on statistics; persistent opt-out preference, no custom visitor IDs. */
 (() => {
   'use strict';
   const config = document.getElementById('headlight-analytics');
@@ -13,6 +13,9 @@
   if (scriptUrl.protocol !== 'https:' || !['cloud.umami.is', 'analytics.eu.umami.is', 'analytics.us.umami.is'].includes(scriptUrl.hostname) || scriptUrl.pathname !== '/script.js') return;
   const privacySignal = navigator.globalPrivacyControl || navigator.doNotTrack === '1';
   if (privacySignal) { start.disabled = true; status.textContent = 'Dein Datenschutzsignal wird respektiert: Messung ausgeschaltet.'; return; }
+  const preferenceKey = 'headlight-statistics-disabled';
+  let optedOut = false;
+  try { optedOut = localStorage.getItem(preferenceKey) === '1'; } catch { /* Storage unavailable. */ }
   let enabled = false, ready = false, loading = false, pageSent = false;
   let active = 0, last = performance.now(), interaction = last;
   const sent = new Set();
@@ -43,7 +46,7 @@
     enabled = false; loading = false; start.disabled = false; stop.hidden = true;
     status.textContent = 'Messung nicht verfügbar. Du kannst den Bericht weiter lesen.';
   }
-  start.addEventListener('click', () => {
+  function enable() {
     if (enabled || loading) return;
     enabled = true; stop.hidden = false; last = interaction = performance.now();
     if (ready) { loaded(); return; }
@@ -54,8 +57,13 @@
     script.dataset.domains = 'headlight.dudelytics.com,dudelytics.com,www.dudelytics.com';
     script.onload = loaded; script.onerror = failed;
     document.head.appendChild(script);
+  }
+  start.addEventListener('click', () => {
+    try { localStorage.removeItem(preferenceKey); } catch {}
+    enable();
   });
   stop.addEventListener('click', () => {
+    try { localStorage.setItem(preferenceKey, '1'); } catch {}
     enabled = false; stop.hidden = true; status.textContent = 'Messung ausgeschaltet.';
   });
   for (const type of ['pointerdown','keydown','scroll']) window.addEventListener(type, () => { interaction = performance.now(); }, { passive: true });
@@ -77,4 +85,6 @@
     if (url.hostname === 'github.com' && url.pathname.startsWith('/Dudelytics/krypto-headlight/discussions')) once('discussion_click');
     else if (article?.contains(link) && ['http:','https:'].includes(url.protocol) && url.hostname !== location.hostname) once('source_click');
   });
+  if (!optedOut) enable();
+  else status.textContent = 'Messung ausgeschaltet.';
 })();

@@ -17,14 +17,14 @@
 <footer class="site-footer"><div class="footer-inner"><p>Dudelytics · Daten verstehen. Quellen sehen. Entscheidungen selbst treffen.</p>
 <p><a href="https://dudelytics.com/impressum/">Impressum</a> · <a href="{{ '/lesestatistik/' | relative_url }}">Datenschutz &amp; Lesestatistik</a> · <a href="https://dudelytics.com/lizenzen/">Lizenzen</a> · <a href="{{ '/feed.xml' | relative_url }}">Atom-Feed</a> · <a href="https://github.com/Dudelytics/krypto-headlight">GitHub</a></p>
 <p class="small">Keine Anlageberatung. CoinGecko ist Rohdatenanbieter, nicht Herausgeber oder Sponsor. Diese Berichtsseite wird bei GitHub Pages gehostet.</p>{% if site.headlight_analytics.enabled and site.headlight_analytics.website_id != '' %}
-<details class="small" aria-label="Freiwillige Lesestatistik">
+<details class="small" aria-label="Lesestatistik">
 <summary style="cursor:pointer">Lesestatistik verwalten</summary>
-<p>Hilf uns zu verstehen, welche Ausgaben gelesen werden. Nur mit deiner Zustimmung messen wir diesen Seitenaufruf, grobe Herkunft, erreichte Textabschnitte, aktive Zeitstufen und Quellenklicks mit Umami. <a href="{{ '/lesestatistik/' | relative_url }}">Details zur Lesestatistik</a>.</p>
-<button id="analytics-start" type="button">Messung für diese Seite erlauben</button>
+<p>Wir erfassen keine Namen oder E-Mail-Adressen. Die Statistik läuft ohne Tracking-Cookies. Umami misst Seitenaufrufe und Nutzung; du kannst die Messung jederzeit ausschalten. <a href="{{ '/lesestatistik/' | relative_url }}">Details zur Lesestatistik</a>.</p>
+<button id="analytics-start" type="button">Messung einschalten</button>
 <button id="analytics-stop" type="button" hidden>Messung ausschalten</button>
-<p id="analytics-status" role="status">Messung ausgeschaltet. Deine Entscheidung wird nicht dauerhaft gespeichert.</p>
+<p id="analytics-status" role="status">Messung wird vorbereitet.</p>
 </details>
-<script id="headlight-analytics" defer src="{{ '/assets/analytics.js' | relative_url }}" data-website-id="{{ site.headlight_analytics.website_id | escape }}" data-script-url="{{ site.headlight_analytics.script_url | escape }}"></script>
+<script id="headlight-analytics" defer src="{{ '/assets/analytics.js' | relative_url }}?v=default-on-1" data-website-id="{{ site.headlight_analytics.website_id | escape }}" data-script-url="{{ site.headlight_analytics.script_url | escape }}"></script>
 {% endif %}
 </div></footer>
 </body></html>
