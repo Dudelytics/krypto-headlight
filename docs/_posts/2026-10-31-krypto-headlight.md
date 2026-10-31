@@ -22,8 +22,7 @@ Der produktive Kryptomarkt verliert **4,11 Prozent**; alle sieben DPMI-Sektoren 
 5. [DPMI-Sektoren und Marktbreite](#dpmi-sektoren-und-marktbreite)
 6. [Stimmung, Spannung und Kapitalflüsse](#stimmung-spannung-und-kapitalflüsse)
 7. [Worauf wir nächste Woche achten](#worauf-wir-nächste-woche-achten)
-8. [Quellen und Datenstand](#quellen-und-datenstand)
-9. [Das Gute zum Schluss](#das-gute-zum-schluss)
+8. [Das Gute zum Schluss](#das-gute-zum-schluss)
 
 ## Die Woche in Zahlen
 
@@ -204,6 +203,24 @@ Diese Fondsgruppen zeigen damit ein schwächeres Nachfragebild als in der Vorwoc
 
 **Produktive Nutzung:** Werden aus neuen Partnerschaften genehmigte Angebote, laufende Anwendungen und wirtschaftliche Nachfrage? Genau dort liegt die Verbindung zwischen den guten Nachrichten und einer langfristig tragfähigen Entwicklung.
 
+## Das Gute zum Schluss
+
+### Hyperliquid: Eine Brücke zur etablierten Börsenwelt
+
+Mitten in einer schwierigen Woche kommt ein bemerkenswertes Signal aus der traditionellen Finanzwelt: **ICE, die Muttergesellschaft der New Yorker Börse NYSE, und Trade[XYZ] haben am 29. Oktober eine Vereinbarung geschlossen**, um auf Hyperliquid basierende Handelsprodukte in einen regulierten US-Markt zu bringen. ICE beteiligt sich außerdem an Trade[XYZ]. Geplant sind rund um die Uhr handelbare Terminkontrakte ohne festes Ablaufdatum, unter anderem auf Aktien, Rohstoffe und Kryptowährungen. Die erforderlichen behördlichen Genehmigungen stehen noch aus. [ICE][ice]
+
+Der Fortschritt liegt in der Verbindung: Ein etablierter Börsenbetreiber will auf Infrastruktur aus der Kryptowelt aufbauen und dafür einen regulierten Zugang schaffen. **Hyperliquid wird als Technik für einen konkreten Ausbau des Finanzmarkts ausgewählt.**
+
+### Chainlink: Ein weiterer Finanzanbieter setzt auf CCIP
+
+Ebenfalls am **29. Oktober** kündigten **Hanwha Investment & Securities und Chainlink** eine strategische Partnerschaft an. Für seine im Aufbau befindliche Plattform zur digitalen Abbildung realer Vermögenswerte übernimmt Hanwha Chainlinks Datenstandard und **CCIP – Cross-Chain Interoperability Protocol** als offizielle Infrastruktur. Einfach gesagt ermöglicht CCIP den Austausch von Nachrichten und Vermögenswerten zwischen unterschiedlichen Blockchains. [Chainlink/Hanwha][hanwha]
+
+Die Zusammenarbeit umfasst verlässliche Bewertungsdaten, die Verteilung digital abgebildeter Vermögenswerte und ihre mögliche Verwendung als Sicherheiten. Für Chainlink ist das ein konkreter weiterer Schritt bei der institutionellen Verbreitung seiner Technik.
+
+Für den produktiven Kryptomarkt zeigt sich darin eine Entwicklung, die unter der nervösen Kursoberfläche leicht untergeht: **Finanzunternehmen wählen Infrastruktur aus der Kryptowelt, weil sie damit konkrete Aufgaben lösen wollen.** Das ist ein guter Grund, diese Woche mit Zuversicht zu beenden.
+
+<div class="source-notes" markdown="1">
+
 ## Quellen und Datenstand
 
 Diese Ausgabe verwendet einen eingefrorenen Redaktionsstand vom **31. Oktober 2026**. Die Zahlen im Text aktualisieren sich nicht automatisch.
@@ -223,21 +240,7 @@ Nachrichtenquellen sind unmittelbar an den zugehörigen Absätzen verlinkt. Die 
 
 *Herausgeber: Dudelytics. CoinGecko ist Rohdatenanbieter der Dudelytics-Indizes, weder Herausgeber noch Sponsor. Keine Kauf- oder Verkaufsempfehlung.*
 
-## Das Gute zum Schluss
-
-### Hyperliquid: Eine Brücke zur etablierten Börsenwelt
-
-Mitten in einer schwierigen Woche kommt ein bemerkenswertes Signal aus der traditionellen Finanzwelt: **ICE, die Muttergesellschaft der New Yorker Börse NYSE, und Trade[XYZ] haben am 29. Oktober eine Vereinbarung geschlossen**, um auf Hyperliquid basierende Handelsprodukte in einen regulierten US-Markt zu bringen. ICE beteiligt sich außerdem an Trade[XYZ]. Geplant sind rund um die Uhr handelbare Terminkontrakte ohne festes Ablaufdatum, unter anderem auf Aktien, Rohstoffe und Kryptowährungen. Die erforderlichen behördlichen Genehmigungen stehen noch aus. [ICE][ice]
-
-Der Fortschritt liegt in der Verbindung: Ein etablierter Börsenbetreiber will auf Infrastruktur aus der Kryptowelt aufbauen und dafür einen regulierten Zugang schaffen. **Hyperliquid wird als Technik für einen konkreten Ausbau des Finanzmarkts ausgewählt.**
-
-### Chainlink: Ein weiterer Finanzanbieter setzt auf CCIP
-
-Ebenfalls am **29. Oktober** kündigten **Hanwha Investment & Securities und Chainlink** eine strategische Partnerschaft an. Für seine im Aufbau befindliche Plattform zur digitalen Abbildung realer Vermögenswerte übernimmt Hanwha Chainlinks Datenstandard und **CCIP – Cross-Chain Interoperability Protocol** als offizielle Infrastruktur. Einfach gesagt ermöglicht CCIP den Austausch von Nachrichten und Vermögenswerten zwischen unterschiedlichen Blockchains. [Chainlink/Hanwha][hanwha]
-
-Die Zusammenarbeit umfasst verlässliche Bewertungsdaten, die Verteilung digital abgebildeter Vermögenswerte und ihre mögliche Verwendung als Sicherheiten. Für Chainlink ist das ein konkreter weiterer Schritt bei der institutionellen Verbreitung seiner Technik.
-
-Für den produktiven Kryptomarkt zeigt sich darin eine Entwicklung, die unter der nervösen Kursoberfläche leicht untergeht: **Finanzunternehmen wählen Infrastruktur aus der Kryptowelt, weil sie damit konkrete Aufgaben lösen wollen.** Das ist ein guter Grund, diese Woche mit Zuversicht zu beenden.
+</div>
 
 [benchmark]: https://dudelytics.com/data/dpmi/benchmark.json
 [hq]: https://dudelytics.com/data/dpmi-holder-quality/history.json

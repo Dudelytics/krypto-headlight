@@ -11,3 +11,5 @@
 10. Korrekturen mit Datum und konkretem Änderungsgrund unter der Ausgabe dokumentieren.
 11. Diskussion moderieren: Kritik und Gegenbelege willkommen; keine persönlichen Angriffe, Spam, Werbung, Zugangsdaten oder privaten Daten.
 12. Herausgeber Dudelytics; CoinGecko Rohdatenanbieter. Bestehende Rechte und Quellenbedingungen beachten.
+
+13. Leserführung: „Das Gute zum Schluss“ ist die letzte redaktionelle Rubrik. Danach folgen Quellen, Datenstand und gegebenenfalls Korrekturen ausschließlich als kleiner Fußnotenblock am Artikelende (`<div class="source-notes" markdown="1">`). Keine große Kapitelüberschrift und kein eigener Hauptpunkt im Inhaltsverzeichnis für diesen Nachweisblock. Alle Quellen und Zeitangaben bleiben erhalten; die Darstellung verwendet 14 px statt der 18 px des Fließtexts.

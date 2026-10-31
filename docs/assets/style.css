@@ -20,3 +20,8 @@ a:focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:
 @media(max-width:650px){.grid{grid-template-columns:1fr;gap:24px}.card{padding:22px}.header-inner nav a{padding-inline:9px}}
 @media(max-width:520px){.header-inner,main,.footer-inner{width:calc(100% - 32px)}h1{font-size:clamp(31px,9.5vw,37px)}.brand{font-size:20px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Sources are a quiet endnote after the editorial conclusion. */
+.prose .source-notes{font-size:14px;line-height:1.55;color:var(--muted);border-top:1px solid var(--line);margin-top:40px;padding-top:16px}
+.prose .source-notes h2{font-size:14px;line-height:1.55;letter-spacing:normal;margin:0 0 8px;text-wrap:wrap}
+.prose .source-notes p{max-width:none;margin:8px 0}.prose .source-notes ul{padding-left:20px}.prose .source-notes li{margin:4px 0}

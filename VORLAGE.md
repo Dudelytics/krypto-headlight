@@ -32,8 +32,14 @@ discussion_url: "https://github.com/Dudelytics/krypto-headlight/discussions/[Num
 ## Was bleibt offen?
 [Datenlücken und Unsicherheiten.]
 
-## Quellen und Datenstand
-[Commit-Permalinks, Quellen- und Aufnahmezeiten, Methodik, Nachrichtenquellen.]
+## Das Gute zum Schluss
+[Herausragende positive Entwicklungen mit konkretem Nutzen und belastbaren Quellen. Letzte redaktionelle Rubrik.]
 
-## Korrekturen
-[Bei Änderungen: Datum und Anlass.]
+<div class="source-notes" markdown="1">
+
+## Quellen und Datenstand
+[Commit-Permalinks, Quellen- und Aufnahmezeiten, Methodik, Nachrichtenquellen. Kleiner Fußnotenblock am Ende, kein Hauptpunkt im Inhaltsverzeichnis.]
+
+**Korrekturen:** [Nur bei Änderungen: Datum und Anlass.]
+
+</div>
