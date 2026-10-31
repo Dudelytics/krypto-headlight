@@ -15,7 +15,7 @@ discussion_url: "https://github.com/Dudelytics/krypto-headlight/discussions/[Num
 ```
 
 ## Die Woche in drei Sätzen
-[Fakten, Kernaussage, wichtigste Unsicherheit.]
+[Dude macht Appetit: drei zugängliche Sätze über das, was diese Woche los war und was wir uns gemeinsam anschauen. Konkrete Themen, Spannungsbogen, persönliche Einladung; keine Zahlenparade oder Fachkürzel. Noch keine vollständige Zusammenfassung.]
 
 ## Der produktive Markt
 [Haupt-DPMI und Vergleich; Marktbreite nur mit geeigneter Datenbasis.]
