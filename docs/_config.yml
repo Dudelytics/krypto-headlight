@@ -21,7 +21,7 @@ headlight_analytics:
   website_id: "1a820d9a-8f11-44fc-acc3-4d289b29587a"
   script_url: "https://cloud.umami.is/script.js"
 
-# Enable only after confirmed DOI, sender authentication and unsubscribe test.
+# Signup enabled by Axel after successful delivery and DOI confirmation.
 headlight_newsletter:
-  enabled: false
+  enabled: true
   signup_url: "https://d28e7737.sibforms.com/serve/MUIFAPtnwnRx7OPISSVPbxq_pAaeiGZjq8GHlyIWslRaankVGOKkqUyE1bMK_lIab0zkpWiXXXp4olj85auw5A-pBj_FqfJmldr7qbL3A3falx4Fs4ncTHg4jFSKYPq9eulNXeUq4hKE6rAi632J05ws3T_eRGeOkGiBDyt_T-z8fO34CRQkgmWV379_feM5NMN0wUNdGimHYJ-qVQ=="
