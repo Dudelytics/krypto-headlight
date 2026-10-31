@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Vertrauen erschüttert, Fortschritt bleibt"
-description: "DPMI −4,11 Prozent, Binance und die Vertrauensfrage der Verwahrung. Politik, Aktienmärkte und Fortschritte bei Hyperliquid und Chainlink."
+description: "Eine Woche zwischen erschüttertem Vertrauen, nervösen Märkten und neuen Brücken zwischen Krypto und Finanzwirtschaft."
 date: 2026-10-31 09:00:00 +0100
 period: "24.–31. Oktober 2026, UTC-Zielstichtage; ETF-Flüsse 26.–30. Oktober"
 data_as_of: "DPMI: 30.10., 23:52:07 UTC; Stimmung und DVIX: 31.10., 07:12:07 UTC"
@@ -11,7 +11,7 @@ discussion_url: "https://github.com/Dudelytics/krypto-headlight/discussions"
 
 ## Die Woche in drei Sätzen
 
-Der produktive Kryptomarkt verliert **4,11 Prozent**; alle sieben DPMI-Sektoren schließen die Woche negativ, während der Angriff auf Binance die Sicherheit der Verwahrung ins Zentrum rückt. In den Archivaufnahmen rund um den Angriff springt der DVIX von **37,59 auf 91,51 Punkte**, bevor er bis Samstagmorgen auf **50,71 Punkte** zurückgeht. Unter der roten Kursoberfläche entstehen zugleich neue Verbindungen zur Finanzwirtschaft: ICE setzt mit Trade[XYZ] auf Hyperliquid-Infrastruktur, und Hanwha entscheidet sich für Chainlinks Datenstandard und CCIP.
+Was für eine Woche: Die Tech-Riesen geraten ins Rutschen, der Angriff auf Binance rüttelt am Vertrauen in die Kryptobranche, und auch politisch ist reichlich Zündstoff dabei. Gleichzeitig entstehen neue Verbindungen zwischen Krypto und der großen Finanzwelt, die im Lärm der schlechten Nachrichten fast untergehen. Schauen wir uns an, was da zusammenkommt, wie sich unser produktiver Markt darin schlägt – und was diese Woche trotzdem Mut macht.
 
 ## In dieser Ausgabe
 
