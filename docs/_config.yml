@@ -24,4 +24,4 @@ headlight_analytics:
 # Enable only after confirmed DOI, sender authentication and unsubscribe test.
 headlight_newsletter:
   enabled: false
-  signup_url: ""
+  signup_url: "https://d28e7737.sibforms.com/serve/MUIFAPtnwnRx7OPISSVPbxq_pAaeiGZjq8GHlyIWslRaankVGOKkqUyE1bMK_lIab0zkpWiXXXp4olj85auw5A-pBj_FqfJmldr7qbL3A3falx4Fs4ncTHg4jFSKYPq9eulNXeUq4hKE6rAi632J05ws3T_eRGeOkGiBDyt_T-z8fO34CRQkgmWV379_feM5NMN0wUNdGimHYJ-qVQ=="
