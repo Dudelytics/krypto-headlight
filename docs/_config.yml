@@ -14,3 +14,9 @@ defaults:
       path: ""
     values:
       layout: default
+
+# Activate only after verifying the user-owned Umami site and privacy details.
+headlight_analytics:
+  enabled: false
+  website_id: ""
+  script_url: "https://cloud.umami.is/script.js"

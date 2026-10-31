@@ -13,6 +13,15 @@
 <a class="skip-link" href="#inhalt">Direkt zum Inhalt</a>
 <header class="site-header"><div class="header-inner"><a class="brand" href="{{ '/' | relative_url }}"><span class="brand-mark" aria-hidden="true">D</span><span class="brand-copy">Dudelytics<span>Krypto-Headlight</span></span></a>
 <nav aria-label="Hauptnavigation"><a href="{{ '/' | relative_url }}">Aktuell</a><a href="{{ '/archiv/' | relative_url }}">Archiv</a><a href="{{ '/ueber/' | relative_url }}">Über den Bericht</a><a href="https://dudelytics.com/research/">Research Hub</a></nav></div></header>
+{% if site.headlight_analytics.enabled and site.headlight_analytics.website_id != '' %}
+<section class="card" aria-label="Freiwillige Lesestatistik">
+<p>Hilf uns zu verstehen, welche Ausgaben gelesen werden. Nur mit deiner Zustimmung messen wir diesen Seitenaufruf, grobe Herkunft, erreichte Textabschnitte, aktive Zeitstufen und Quellenklicks mit Umami. <a href="{{ '/lesestatistik/' | relative_url }}">Details zur Lesestatistik</a>.</p>
+<button id="analytics-start" type="button">Messung für diese Seite erlauben</button>
+<button id="analytics-stop" type="button" hidden>Messung ausschalten</button>
+<p id="analytics-status" role="status">Messung ausgeschaltet. Deine Entscheidung wird nicht dauerhaft gespeichert.</p>
+</section>
+<script id="headlight-analytics" defer src="{{ '/assets/analytics.js' | relative_url }}" data-website-id="{{ site.headlight_analytics.website_id | escape }}" data-script-url="{{ site.headlight_analytics.script_url | escape }}"></script>
+{% endif %}
 <main id="inhalt">{{ content }}</main>
 <footer class="site-footer"><div class="footer-inner"><p>Dudelytics · Daten verstehen. Quellen sehen. Entscheidungen selbst treffen.</p>
 <p><a href="https://dudelytics.com/impressum/">Impressum</a> · <a href="https://dudelytics.com/datenschutz/">Datenschutz</a> · <a href="https://dudelytics.com/lizenzen/">Lizenzen</a> · <a href="{{ '/feed.xml' | relative_url }}">Atom-Feed</a> · <a href="https://github.com/Dudelytics/krypto-headlight">GitHub</a></p>
