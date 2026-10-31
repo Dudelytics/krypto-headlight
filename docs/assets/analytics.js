@@ -5,7 +5,7 @@
   const start = document.getElementById('analytics-start');
   const stop = document.getElementById('analytics-stop');
   const status = document.getElementById('analytics-status');
-  if (!config || !start || !stop || !status || location.hostname !== 'headlight.dudelytics.com') return;
+  if (!config || !start || !stop || !status || !['headlight.dudelytics.com', 'dudelytics.com', 'www.dudelytics.com'].includes(location.hostname)) return;
   const id = config.dataset.websiteId;
   if (!/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(id || '')) return;
   let scriptUrl;
@@ -51,7 +51,7 @@
     const script = document.createElement('script');
     script.src = scriptUrl.href; script.defer = true; script.referrerPolicy = 'no-referrer';
     script.dataset.websiteId = id; script.dataset.autoTrack = 'false';
-    script.dataset.domains = 'headlight.dudelytics.com';
+    script.dataset.domains = 'headlight.dudelytics.com,dudelytics.com,www.dudelytics.com';
     script.onload = loaded; script.onerror = failed;
     document.head.appendChild(script);
   });

@@ -17,6 +17,6 @@ defaults:
 
 # Activate only after verifying the user-owned Umami site and privacy details.
 headlight_analytics:
-  enabled: false
-  website_id: ""
+  enabled: true
+  website_id: "1a820d9a-8f11-44fc-acc3-4d289b29587a"
   script_url: "https://cloud.umami.is/script.js"
