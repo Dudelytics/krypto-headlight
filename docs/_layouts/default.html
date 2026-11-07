@@ -11,7 +11,7 @@
 </head>
 <body>
 <a class="skip-link" href="#inhalt">Direkt zum Inhalt</a>
-<header class="site-header"><div class="header-inner"><a class="brand" href="{{ '/' | relative_url }}"><span class="brand-mark" aria-hidden="true">D</span><span class="brand-copy">Dudelytics<span>Krypto-Headlight</span></span></a>
+<header class="site-header"><div class="header-inner"><a class="brand" href="{{ '/' | relative_url }}"><span class="brand-copy">Dudelytics<span>Krypto-Headlight</span></span></a>
 <nav aria-label="Hauptnavigation"><a href="{{ '/' | relative_url }}">Aktuell</a><a href="{{ '/archiv/' | relative_url }}">Archiv</a><a href="{{ '/ueber/' | relative_url }}">Über den Bericht</a><a href="https://dudelytics.com/research/">Research Hub</a></nav></div></header>
 <main id="inhalt">{{ content }}</main>
 <footer class="site-footer"><div class="footer-inner"><p>Dudelytics · Daten verstehen. Quellen sehen. Entscheidungen selbst treffen.</p>
@@ -22,7 +22,7 @@
 <p>Wir erfassen keine Namen oder E-Mail-Adressen. Die Statistik läuft ohne Tracking-Cookies. Umami misst Seitenaufrufe und Nutzung; du kannst die Messung jederzeit ausschalten. <a href="{{ '/lesestatistik/' | relative_url }}">Details zur Lesestatistik</a>.</p>
 <button id="analytics-start" type="button">Messung einschalten</button>
 <button id="analytics-stop" type="button" hidden>Messung ausschalten</button>
-<p id="analytics-status" role="status">Messung wird vorbereitet.</p>
+<p id="analytics-status" role="status">Ohne JavaScript bleibt die Messung ausgeschaltet.</p>
 </details>
 <script id="headlight-analytics" defer src="{{ '/assets/analytics.js' | relative_url }}?v=default-on-1" data-website-id="{{ site.headlight_analytics.website_id | escape }}" data-script-url="{{ site.headlight_analytics.script_url | escape }}"></script>
 {% endif %}

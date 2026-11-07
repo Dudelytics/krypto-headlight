@@ -38,7 +38,7 @@ Der Haupt-DPMI fällt von **119,74 auf 114,24 Punkte**. Unser produktiver Krypto
 | **Haupt-DPMI** | **−4,60 %** |
 | DPMI Holder Quality | −4,60 % |
 
-*Wochenvergleich: 31. Oktober bis 7. November, Stichtage Mitternacht UTC. Grundlage: [Dudelytics-Benchmark][benchmark] und [Indexhistorien][hq].*
+*Wochenvergleich: 31. Oktober bis 7. November, Stichtage Mitternacht UTC; bei den Indizes stammen die Messpunkte jeweils von wenigen Minuten davor. Grundlage: [Dudelytics-Benchmark][benchmark] und [Indexhistorien][hq].*
 
 Der produktive Markt liegt damit **2,72 Prozentpunkte hinter Bitcoin** und **4,32 Prozentpunkte hinter Ethereum**. Auch die nach Holder Quality ausgewählte Gruppe bietet diesmal keinen nennenswerten Schutz: Ihr Index fällt von **119,85 auf 114,33 Punkte**, die Wochenrendite liegt praktisch gleichauf mit dem Haupt-DPMI.
 
@@ -60,7 +60,7 @@ Krypto bekam den Rückzug aus riskanten Anlagen unmittelbar zu spüren. Bitcoin 
 
 Der Hebel verschärft solche Bewegungen: Fällt ein Kurs weit genug, reichen die hinterlegten Sicherheiten nicht mehr. Positionen werden automatisch geschlossen. Bei gehebelten Wetten auf steigende Kurse bedeutet das zusätzlichen Verkaufsdruck — genau dann, wenn ohnehin schon viele zur Tür wollen.
 
-**Das ist die Hauptgeschichte dieser Woche.** Der Angriff auf Binance belastet das Vertrauen in eine große Börse. Der gleichzeitige Ausverkauf bei Technologieaktien zeigt aber, wie viel breiter die Bewegung ist.
+**Der KI- und Tech-Ausverkauf zieht Krypto mit nach unten. Das ist die Hauptgeschichte dieser Woche.** Der Vertrauensverlust nach dem Binance-Angriff kommt als zusätzliche Belastung hinzu.
 
 ### Der Arbeitsmarkt liefert keinen dringenden Grund für billigeres Geld
 
@@ -102,6 +102,16 @@ Die Nähe zu Trump hatte trotzdem konkrete Folgen. Seine persönlichen Kryptoges
 
 Eine Branche, die dauerhaft Teil des Finanzsystems werden möchte, braucht Beziehungen, die einen Machtwechsel überstehen. Politische Vergeltung gegen mögliche spätere Verhandlungspartner kann kurzfristig Entschlossenheit zeigen und langfristig genau die Mehrheiten kosten, die man benötigt.
 
+### Mehr Anlegerschutz, mehr SEC: Der nächste politische Streit steht vor der Tür
+
+Was könnte sich mit den neuen Mehrheiten konkret ändern? Nach Recherchen von **Crypto In America vom 5. November** diskutieren Demokraten im Repräsentantenhaus einen neuen Entwurf zur Krypto-Marktordnung. Ausgangspunkt ist ein Vorschlag von Maxine Waters aus dem Jahr 2025. Im Gespräch sind mehr Zuständigkeiten für die Wertpapieraufsicht **SEC** und eine kleinere Rolle für die Terminmarktaufsicht **CFTC** als im republikanischen CLARITY Act vorgesehen.
+
+Waters’ damaliger Vorschlag verlangte unter anderem strengere Verwahrungsvorschriften, monatliche Reservenachweise und rund um die Uhr erreichbaren Kundenservice. **Das wäre nach einer Woche mit gestohlenen Coins und blockierten Auszahlungen keineswegs bloß lästige Bürokratie.**
+
+Aber: Der neue Entwurf ist noch nicht öffentlich, die berichteten Pläne sind kein beschlossenes Gesetz. Auch mit demokratischen Mehrheiten bleibt Trumps Vetorecht eine Hürde. [Crypto In America][waters]
+
+Für den produktiven Kryptomarkt zählt deshalb der Inhalt: Regeln, die Kundengelder schützen und nachvollziehbare Geschäftsmodelle ermöglichen, wären ein Fortschritt. Ob der künftige Entwurf das leistet, muss sich am Gesetzestext zeigen.
+
 ### MEXC: Ein relevanter Handelsplatz bekommt ein ernstes Problem
 
 MEXC ist eine zentrale Kryptobörse. Das US-Finanzministerium zählt sie zu den weltweit zwanzig größten und nennt für September **mehr als eine Milliarde Dollar tägliches Transaktionsvolumen** sowie **rund fünf Milliarden Dollar Reserven**.
@@ -130,6 +140,8 @@ Die Neuigkeit liegt also in der Umsetzung: Anbieter sollen genauer wissen, welch
 
 ## Binance: Ersatz allein stellt Vertrauen nicht wieder her
 
+Beim Angriff auf Binance am **29. Oktober** wurden Kryptowerte im damaligen Wert von rund **6,3 Milliarden Dollar** gestohlen. Das **FBI machte am 31. Oktober Nordkorea verantwortlich** und ordnete die Tat der von ihm als „TraderTraitor“ bezeichneten Cyberaktivität zu. [Reuters][binancetheft] · [FBI][fbi]
+
 Binance meldete am **4. November**, rund **98 Prozent der betroffenen Vermögenswerte wiederbeschafft** zu haben. Die Mittel für den vollständigen Ersatz seien bereits reserviert. Bei den verbliebenen, weniger liquiden Token dauere die Beschaffung länger. Am 6. November folgten weitere Ankündigungen zur schrittweisen Öffnung von Auszahlungen. [Binance][binance98] · [Binance-Updates][binance9]
 
 98 Prozent sind weit fortgeschritten. Für jemanden, dessen eigener Token zu den übrigen zwei Prozent gehört, bleibt die Angelegenheit trotzdem offen. Reserviertes Geld und tatsächlich wieder verfügbare Coins sind zwei unterschiedliche Dinge.
@@ -150,7 +162,7 @@ Für Binance wird Vertrauen deshalb vor allem im Alltag zurückgewonnen: wenn Au
 
 Wie abhängig dieser Schritt zunächst von der jeweiligen Börse bleibt, zeigt diese Woche auch Bitvavo.
 
-### Bitvavo: Selbstverwahrung mit Warteschleife
+### Bitvavo: Deine Coins wollen raus. Die Börse lässt sie warten.
 
 Seit dem 4. November meldet Bitvavo Probleme bei Krypto-Ein- und Auszahlungen. Auch am Samstagmorgen ist die Störung nicht vollständig behoben. Während viele Transfers wieder funktionieren, hängen andere weiterhin in der Warteschlange. Die zunächst für Donnerstag und später für Freitagmittag erwartete vollständige Wiederherstellung blieb aus. Bitvavo verweist auf einen externen Dienstleister und versichert, die Kundengelder seien sicher. [Bitvavo-Status][bitvavostatus]
 
@@ -202,7 +214,9 @@ Die Gegenbewegung wird damit von mehr als einem einzelnen Schwergewicht getragen
 
 Die vier Stimmungswerte liegen nach der Dudelytics-Einstufung im **neutralen Bereich**. Der kurzfristige Puls ist freundlicher als die längeren Zeiträume. Das passt zur breiteren Tageserholung.
 
-Der DVIX zeigt gleichzeitig **erhöhte Spannung**. Die Sektoren bewegen sich stark gemeinsam, und der Abstand zu jüngsten Hochs belastet das Bild weiterhin.
+Der DVIX zeigt gleichzeitig **erhöhte Spannung**: Diese Kategorie reicht von **40 bis unter 60 Punkten** auf seiner Skala von 0 bis 100. Die Punkte sind keine Prozentangabe und keine Absturzwahrscheinlichkeit. [Skala und Begriffe](/ueber/#skalen-und-begriffe)
+
+Die Sektoren bewegen sich stark gemeinsam, und der Abstand zu jüngsten Hochs belastet das Bild weiterhin.
 
 Beides kann gleichzeitig stimmen: Die unmittelbare Stimmung hellt sich auf, während der Markt noch unter den vorherigen Verlusten steht. Ein grüner Morgen repariert keine ganze Woche.
 
@@ -215,6 +229,19 @@ Beides kann gleichzeitig stimmen: Die unmittelbare Stimmung hellt sich auf, wäh
 | Solana | −25,00 Mio. USD | −71,60 Mio. USD |
 
 *Eigene Addition der Tagesgesamtsummen von Farside; Vorwoche: 26.–30. Oktober. [Bitcoin][btcflows] · [Ethereum][ethflows] · [Solana][solflows]*
+
+So setzen sich die aktuellen Wochensummen zusammen:
+
+| Handelstag | Bitcoin | Ethereum | Solana |
+|---|---:|---:|---:|
+| 2. November | −398,6 | −139,7 | 0,0 |
+| 3. November | −115,6 | −85,3 | 0,0 |
+| 4. November | +74,6 | +53,0 | 0,0 |
+| 5. November | −430,2 | −99,9 | −0,8 |
+| 6. November | −411,9 | −93,3 | −24,2 |
+| **Summe** | **−1.281,7** | **−365,2** | **−25,0** |
+
+*Nettoflüsse in Millionen US-Dollar; dieselben Farside-Tagesreihen wie oben. Positiv bedeutet Zufluss, negativ Abfluss.*
 
 Bei Bitcoin hat sich der Nettoabfluss deutlich vergrößert. Ethereum und Solana verlieren ebenfalls Kapital über diese Fonds, allerdings weniger als in der Vorwoche.
 
@@ -275,6 +302,10 @@ Redaktionsstand: **7. November 2026**, bei der eigenen Bitvavo-Auszahlung **09:1
 - **Binance und Börsenabflüsse:** 98 Prozent ist die Unternehmensangabe vom 04.11.; reservierte Mittel sind von wiederbeschafften Coins getrennt. Die 3,64 Milliarden Dollar sind ein früher Zwischenstand. Talos und Santiment verwenden andere Zeiträume und Abgrenzungen; ihre Werte werden nicht addiert. Die Santiment-Angaben waren über den Suchindex zugänglich, ein direkter Volltextabruf gelang nicht. Selbstverwahrung ist eine plausible, aber nicht vollständig nachgewiesene Zielverwendung.
 - **Bitvavo:** Der Beginn der allgemeinen Störung ist am 04.11., 15:31 UTC / 16:31 MEZ erfasst. Bis 07.11., 09:10 MEZ sind das rund 64½ Stunden. Das ist die Dauer des Vorfalls, nicht die Wartezeit jeder einzelnen Auszahlung. Die eigene offene Auszahlung ist eine Beobachtung der Redaktion; Umfang und Dienstleisterproblem folgen der offiziellen Statusmeldung. Kein Zusammenhang mit dem Binance-Angriff wird behauptet.
 
+**Ergänzung und Klarstellung vom 7. November 2026:** Schadenssumme, Tatdatum und FBI-Zuordnung des Binance-Angriffs ergänzt; die diskutierten US-Regulierungspläne eingeordnet; ETF-Tageswerte und DVIX-Schwelle hinzugefügt. Der Bitvavo-Titel benennt nun ausdrücklich die Börse als Engpass. Wochenwerte und ursprüngliche Datenstände bleiben unverändert.
+
+Methodenkürzel und Fachbegriffe erklären wir [auf der Über-Seite](/ueber/#skalen-und-begriffe).
+
 Nachrichtenquellen sind unmittelbar an den zugehörigen Absätzen verlinkt. Gleichzeitige Kursbewegungen belegen für sich keine alleinige Ursache.
 
 *Herausgeber: Dudelytics. CoinGecko ist Rohdatenanbieter der Dudelytics-Indizes, weder Herausgeber noch Sponsor. Keine Kauf- oder Verkaufsempfehlung.*
@@ -319,3 +350,7 @@ Nachrichtenquellen sind unmittelbar an den zugehörigen Absätzen verlinkt. Glei
 [bitvavostatus]: https://status.bitvavo.com/incidents/01M6KK0EZF5DQRJ50VGTP5TBZV
 [bitvavostart]: https://outagedb.com/events/2026-11-04-15-31/
 [bitvavokaiko]: https://www.kaiko.com/news/kaiko-research-highlights-bitvavos-position-in-eur-spot-trading
+
+[fbi]: https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack
+[binancetheft]: https://www.reuters.com/legal/government/binance-says-90-stolen-assets-replenished-2026-10-31/
+[waters]: https://www.cryptoinamerica.com/p/house-democrats-eye-new-crypto-market
