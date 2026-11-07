@@ -41,6 +41,10 @@ Die exakten Grenzen zwischen den Kategorien sind im derzeit verlinkten Datensatz
 - **Stundenanker:** Referenzmesspunkte im Stundenraster, anhand derer zeitliche Veränderungen berechnet werden. Die Abdeckung zeigt, wie vollständig diese Messreihe ist; fehlende Punkte werden im Headlight nicht erfunden.
 - **Nettofluss:** Zuflüsse abzüglich Abflüsse im genannten Zeitraum. Ein Börsentransfer in die eigene Wallet ist kein Verkauf und lässt sich nicht einfach mit ETF-Abflüssen addieren.
 
+## Eigene Positionen
+
+Der Herausgeber hält selbst Kryptowerte, darunter auch im Headlight besprochene Assets; daraus können eigene wirtschaftliche Interessen entstehen. Der Headlight ist keine persönliche Anlageempfehlung.
+
 ## Kommentare
 [GitHub Discussions](https://github.com/Dudelytics/krypto-headlight/discussions) bietet Raum für Fragen, Kritik und Gegenbelege. Lesen ohne Anmeldung; zum Kommentieren ist ein GitHub-Konto erforderlich.
 
