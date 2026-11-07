@@ -17,9 +17,10 @@ Diese Woche brauchte man beim Blick ins Depot stellenweise gute Nerven. Technolo
 
 - [Die Woche in Zahlen](#die-woche-in-zahlen)
 - [KI, Aktienmärkte und Zinsen](#ki-aktienmärkte-und-zinsen)
-- [Circle: mehr Nutzung, aber woher kommt der Ertrag?](#circle-viel-bewegung-aber-woher-kommt-das-geld)
+- [Circle: Viel Bewegung, aber woher kommt das Geld?](#circle-viel-bewegung-aber-woher-kommt-das-geld)
 - [Politik nach den US-Wahlen](#politik-und-gesellschaft)
-- [Binance und Bitvavo](#binance-ersatz-allein-stellt-vertrauen-nicht-wieder-her)
+- [Binance: Ersatz allein stellt Vertrauen nicht wieder her](#binance-ersatz-allein-stellt-vertrauen-nicht-wieder-her)
+- [Bitvavo: Deine Coins wollen raus. Die Börse lässt sie warten.](#bitvavo-deine-coins-wollen-raus-die-börse-lässt-sie-warten)
 - [Sektoren und Marktbreite](#die-dpmi-sektoren-diese-woche-blieb-keiner-verschont)
 - [Stimmung und Spannung](#stimmung-und-spannung)
 - [Kapitalflüsse](#die-etf-käufer-bleiben-zurückhaltend)
@@ -56,7 +57,9 @@ Am Donnerstag, dem **5. November**, verlor der Nasdaq Composite **5,5 Prozent**.
 
 Anleger hinterfragen, ob der Ausbau der Rechenzentren im erwarteten Tempo weitergeht und ob die gewaltigen Investitionen genügend Ertrag bringen. Hohe Finanzierungskosten machen diese Rechnung schwieriger. Nach den Wahlerfolgen der Demokraten kamen Befürchtungen hinzu, der weitere Ausbau könnte politisch stärker begrenzt werden. Das sind zunächst Erwartungen des Marktes, keine bereits beschlossenen Bauverbote. [Zacks][aiworries]
 
-Krypto bekam den Rückzug aus riskanten Anlagen unmittelbar zu spüren. Bitcoin verlor am Donnerstag gut fünf Prozent; gehebelte Kryptopositionen im Wert von mehr als **einer Milliarde Dollar** wurden zwangsgeschlossen. Auch mehrere Bitcoin-Miner mit zusätzlichem KI- und Rechenzentrumsgeschäft verzeichneten zweistellige Kursverluste. [CoinShares][coinshares]
+Krypto bekam den Rückzug aus riskanten Anlagen unmittelbar zu spüren. Bitcoin verlor am Donnerstag gut fünf Prozent; gehebelte Kryptopositionen im Wert von mehr als **einer Milliarde Dollar** wurden zwangsgeschlossen. [CoinShares][coinshares]
+
+Die Verbindung wird bei Unternehmen aus dem Mining- und Rechenzentrumsgeschäft besonders deutlich: **IREN und Cipher Digital verloren am Donnerstag jeweils mehr als 14 Prozent**, ebenso Applied Digital. [Reuters][minerlosses]
 
 Der Hebel verschärft solche Bewegungen: Fällt ein Kurs weit genug, reichen die hinterlegten Sicherheiten nicht mehr. Positionen werden automatisch geschlossen. Bei gehebelten Wetten auf steigende Kurse bedeutet das zusätzlichen Verkaufsdruck — genau dann, wenn ohnehin schon viele zur Tür wollen.
 
@@ -245,7 +248,7 @@ So setzen sich die aktuellen Wochensummen zusammen:
 
 Bei Bitcoin hat sich der Nettoabfluss deutlich vergrößert. Ethereum und Solana verlieren ebenfalls Kapital über diese Fonds, allerdings weniger als in der Vorwoche.
 
-Aufschlussreich ist der Mittwoch: Die Bitcoin-ETFs gewannen insgesamt **74,6 Millionen Dollar**, während BlackRocks IBIT gleichzeitig **201,2 Millionen Dollar verlor**. Schon von Montag bis Mittwoch summierten sich die Nettoabflüsse auf **439,6 Millionen Dollar**. Die anschließenden beiden Handelstage verschlechterten die Bilanz weiter. [Farside][btcflows]
+Aufschlussreich ist der Mittwoch: Die Bitcoin-ETFs gewannen insgesamt **74,6 Millionen Dollar**, während BlackRocks IBIT gleichzeitig **201,2 Millionen Dollar verlor**. Schon von Montag bis Mittwoch summierten sich die Nettoabflüsse auf **439,6 Millionen Dollar**. Am Donnerstag flossen weitere **430,2 Millionen Dollar** ab, am Freitag **411,9 Millionen** — die Tageswerte stehen auch in der Tabelle oben. [Farside][btcflows]
 
 Die kurze Kurserholung wurde über diesen wichtigen Zugang also nicht von einer breiten, anhaltenden Rückkehr der Käufer begleitet.
 
@@ -302,11 +305,13 @@ Redaktionsstand: **7. November 2026**, bei der eigenen Bitvavo-Auszahlung **09:1
 - **Binance und Börsenabflüsse:** 98 Prozent ist die Unternehmensangabe vom 04.11.; reservierte Mittel sind von wiederbeschafften Coins getrennt. Die 3,64 Milliarden Dollar sind ein früher Zwischenstand. Talos und Santiment verwenden andere Zeiträume und Abgrenzungen; ihre Werte werden nicht addiert. Die Santiment-Angaben waren über den Suchindex zugänglich, ein direkter Volltextabruf gelang nicht. Selbstverwahrung ist eine plausible, aber nicht vollständig nachgewiesene Zielverwendung.
 - **Bitvavo:** Der Beginn der allgemeinen Störung ist am 04.11., 15:31 UTC / 16:31 MEZ erfasst. Bis 07.11., 09:10 MEZ sind das rund 64½ Stunden. Das ist die Dauer des Vorfalls, nicht die Wartezeit jeder einzelnen Auszahlung. Die eigene offene Auszahlung ist eine Beobachtung der Redaktion; Umfang und Dienstleisterproblem folgen der offiziellen Statusmeldung. Kein Zusammenhang mit dem Binance-Angriff wird behauptet.
 
-**Ergänzung und Klarstellung vom 7. November 2026:** Schadenssumme, Tatdatum und FBI-Zuordnung des Binance-Angriffs ergänzt; die diskutierten US-Regulierungspläne eingeordnet; ETF-Tageswerte und DVIX-Schwelle hinzugefügt. Der Bitvavo-Titel benennt nun ausdrücklich die Börse als Engpass. Wochenwerte und ursprüngliche Datenstände bleiben unverändert.
+**Ergänzung und Klarstellung vom 7. November 2026:** Schadenssumme, Tatdatum und FBI-Zuordnung des Binance-Angriffs ergänzt; die diskutierten US-Regulierungspläne eingeordnet; ETF-Tageswerte und DVIX-Schwelle hinzugefügt. Der Bitvavo-Titel benennt nun ausdrücklich die Börse als Engpass. Wochenwerte und ursprüngliche Datenstände bleiben unverändert. Im selben Tagesupdate wurden die Verzeichnislinks präzisiert, konkrete Unternehmen beim Ausverkauf ergänzt und der Hinweis auf eigene Kryptopositionen auf der Über-Seite verlinkt.
 
 Methodenkürzel und Fachbegriffe erklären wir [auf der Über-Seite](/ueber/#skalen-und-begriffe).
 
 Nachrichtenquellen sind unmittelbar an den zugehörigen Absätzen verlinkt. Gleichzeitige Kursbewegungen belegen für sich keine alleinige Ursache.
+
+Offenlegung: Der Herausgeber hält selbst Kryptowerte; [Hinweis zu eigenen Positionen](/ueber/#eigene-positionen).
 
 *Herausgeber: Dudelytics. CoinGecko ist Rohdatenanbieter der Dudelytics-Indizes, weder Herausgeber noch Sponsor. Keine Kauf- oder Verkaufsempfehlung.*
 
@@ -354,3 +359,5 @@ Nachrichtenquellen sind unmittelbar an den zugehörigen Absätzen verlinkt. Glei
 [fbi]: https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack
 [binancetheft]: https://www.reuters.com/legal/government/binance-says-90-stolen-assets-replenished-2026-10-31/
 [waters]: https://www.cryptoinamerica.com/p/house-democrats-eye-new-crypto-market
+
+[minerlosses]: https://www.reuters.com/legal/transactional/ai-data-center-stocks-slip-democratic-sweep-clouds-expansion-plans-2026-11-05/
