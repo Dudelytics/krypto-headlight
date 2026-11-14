@@ -29,3 +29,17 @@ Die automatisch erstellten Morgen- und Abendbriefings des Mitgliederbereichs wer
 Brevo-Vorlage #5: „Krypto-Headlight – Neue Ausgabe (Versandvorlage)“, gespeichert und aktiv. Beige/Terracotta-Design, deutsch, Absender headlight@news.dudelytics.com, Name Dude · Dudelytics, Reply-to webmaster@dudelytics.com. UTM-Tracking aus. Native Abmeldung über `{{ unsubscribe }}`, Datenschutz und öffentliche Absenderangaben enthalten. Desktop-/Empfängervorschau geprüft. Die Vorschau liefert keinen echten Abmeldetoken; ein vollständiger Abmelde- und Unterdrückungstest ist noch offen. Es wurde keine Testmail und keine Kampagne versendet.
 
 Vor jeder Ausgabe: Vorlage in einer E-Mail-Kampagne verwenden, individuellen Teaser und Betreff einsetzen, Button auf die dauerhafte URL der konkreten Ausgabe ändern (Vorlage verweist auf die Startseite), ausschließlich bestätigte/nicht gesperrte Empfänger der Liste #3 auswählen, Tracking-Einstellungen prüfen, Test und Freigabe, danach einmalig versenden. Aktivierung der Vorlage ist keine Versandautomatisierung.
+
+## Englisches Abo – 14.11.2026
+Die englische Ausgabe und ihr eigenes Abo wurden auf Axels Auftrag eingerichtet und öffentlich aktiviert. Die deutsche Liste, das deutsche Formular und die Vorlagen #4/#5 wurden nicht geändert.
+
+- Öffentlich: https://headlight.dudelytics.com/en/ – Abo-Button auf Startseite und Artikeln. Englisch ist auch im geschützten Account-Reader über die Sprachwahl verfügbar.
+- Eigene Liste: **Crypto-Headlight – English**, ohne Import deutscher Bestandskontakte.
+- Formular: **Crypto-Headlight – English email subscription**, ID `6af8221c48f338c914977ef2`. Öffentliche Ansicht mit englischen Feldern, Pflicht-Einwilligung ohne Vorauswahl und englischem Datenschutzlink geprüft.
+- Double-Opt-in gespeichert und nach erneutem Öffnen geprüft: aktive englische Bestätigungsvorlage **#6 Crypto-Headlight EN – Double opt-in confirmation**, Betreff **Confirm your English Headlight subscription**, nativer Platzhalter `{{ doubleoptin }}`.
+- Weiterleitung erst nach Bestätigung des E-Mail-Links nach https://headlight.dudelytics.com/en/subscribe/confirmed/. Keine unmittelbare Weiterleitung nach Formulareingabe, keine zusätzliche finale Bestätigungsmail.
+- Aktive englische Versandvorlage **#7 Crypto-Headlight EN – New edition** mit englischem Markenkopf, Betreff **Crypto-Headlight: your new English weekly briefing**, Vorschautext **Your weekly briefing from the Dude.**, Link auf die englische Ausgabe und nativem `{{ unsubscribe }}`.
+- Beide englischen Vorlagen nutzen den bestehenden verifizierten Absender und Reply-to webmaster@dudelytics.com. UTM-Tracking ist aus. Dies belegt nicht sämtliche personenbezogenen Tracking-Einstellungen einer späteren Kampagne.
+- HTML-Quellen: `newsletter/confirmation-en.html` und `newsletter/edition-en.html`. Öffentliche Signup-URL in `docs/_config.yml`.
+- **Kein Testversand und keine Kampagne versendet.** Echter DOI-Empfang, Bestätigung, doppelte Anmeldung sowie Abmeldung/Unterdrückung sind noch nicht Ende zu Ende nachgewiesen. CAPTCHA weiterhin nicht eingerichtet.
+- Kein kostenpflichtiges Upgrade und keine neue Versandautomatisierung. Die Regeln zur Freigabe jeder Ausgabe gelten auch auf Englisch: Kampagne mit konkretem Ausgabenlink und geprüftem Teaser vorbereiten, ausschließlich bestätigte und nicht abgemeldete Empfänger der englischen Liste wählen, Einstellungen prüfen, Test und Axels Freigabe vor dem Versand. Vorlagenaktivierung allein versendet keine E-Mails.
