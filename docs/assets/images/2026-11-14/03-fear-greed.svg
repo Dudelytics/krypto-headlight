@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="979.2pt" height="561.6pt" viewBox="0 0 979.2 561.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-14T07:59:20.926452</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 561.6 
+L 979.2 561.6 
+L 979.2 0 
+L 0 0 
+z
+" style="fill: #f7f3eb"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 430.848 336.96 
+L 851.904 336.96 
+L 851.904 179.712 
+L 430.848 179.712 
+z
+" style="fill: #f7f3eb"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #696a63" x="430.848" y="356.837969" transform="rotate(-0 430.848 356.837969)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #696a63" x="641.376" y="356.837969" transform="rotate(-0 641.376 356.837969)">50</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #696a63" x="851.904" y="356.837969" transform="rotate(-0 851.904 356.837969)">100</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #696a63" x="420.848" y="202.830891" transform="rotate(-0 420.848 202.830891)">24-Stunden-Puls</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_5"/>
+     <g id="text_5">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #696a63" x="420.848" y="262.895062" transform="rotate(-0 420.848 262.895062)">7-Tage-Trend</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_6"/>
+     <g id="text_6">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #696a63" x="420.848" y="322.959234" transform="rotate(-0 420.848 322.959234)">30-Tage-Regime</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 430.848 186.859636 
+L 851.904 186.859636 
+L 851.904 209.684021 
+L 430.848 209.684021 
+z
+" clip-path="url(#p707f3983e4)" style="fill: #e5ded1"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 430.848 246.923807 
+L 851.904 246.923807 
+L 851.904 269.748193 
+L 430.848 269.748193 
+z
+" clip-path="url(#p707f3983e4)" style="fill: #e5ded1"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 430.848 306.987979 
+L 851.904 306.987979 
+L 851.904 329.812364 
+L 430.848 329.812364 
+z
+" clip-path="url(#p707f3983e4)" style="fill: #e5ded1"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 430.848 186.859636 
+L 522.764525 186.859636 
+L 522.764525 209.684021 
+L 430.848 209.684021 
+z
+" clip-path="url(#p707f3983e4)" style="fill: #a64d37"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 430.848 246.923807 
+L 585.712397 246.923807 
+L 585.712397 269.748193 
+L 430.848 269.748193 
+z
+" clip-path="url(#p707f3983e4)" style="fill: #e86e22"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 430.848 306.987979 
+L 602.891482 306.987979 
+L 602.891482 329.812364 
+L 430.848 329.812364 
+z
+" clip-path="url(#p707f3983e4)" style="fill: #346f69"/>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #a64d37" x="868.74624" y="202.134954" transform="rotate(-0 868.74624 202.134954)">21,83</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #e86e22" x="868.74624" y="262.199125" transform="rotate(-0 868.74624 262.199125)">36,78</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #346f69" x="868.74624" y="322.263296" transform="rotate(-0 868.74624 322.263296)">40,86</text>
+   </g>
+  </g>
+  <g id="line2d_7">
+   <path d="M 63.648 511.056 
+L 915.552 511.056 
+" style="fill: none; stroke: #dcd5c9; stroke-linecap: square"/>
+  </g>
+  <g id="text_10">
+   <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #a64d37" x="63.648" y="38.1888" transform="rotate(-0 63.648 38.1888)">DUDELYTICS  /  KRYPTO-HEADLIGHT</text>
+  </g>
+  <g id="text_11">
+   <text style="font-weight: 700; font-size: 29px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #20211f" x="63.648" y="87.048" transform="rotate(-0 63.648 87.048)">Die Stimmung: Angst</text>
+  </g>
+  <g id="text_12">
+   <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #696a63" x="63.648" y="117.936" transform="rotate(-0 63.648 117.936)">Dude Fear &amp; Greed · Produktiver Kryptomarkt</text>
+  </g>
+  <g id="text_13">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #696a63" x="63.648" y="536.328" transform="rotate(-0 63.648 536.328)">Dudelytics · Eigene Indizes. Klare Einordnung.</text>
+  </g>
+  <g id="text_14">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #696a63" x="915.552" y="536.328" transform="rotate(-0 915.552 536.328)">14. November 2026</text>
+  </g>
+  <g id="text_15">
+   <text style="font-weight: 700; font-size: 65px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #a64d37" x="63.648" y="235.872" transform="rotate(-0 63.648 235.872)">32,57</text>
+  </g>
+  <g id="text_16">
+   <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #696a63" x="63.648" y="272.376" transform="rotate(-0 63.648 272.376)">von 100 Punkten</text>
+  </g>
+  <g id="text_17">
+   <text style="font-weight: 700; font-size: 19px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #20211f" x="63.648" y="435.24" transform="rotate(-0 63.648 435.24)">Nur 8,55 % der auswertbaren Coins im Tagesplus.</text>
+  </g>
+  <g id="text_18">
+   <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #696a63" x="63.648" y="468.936" transform="rotate(-0 63.648 468.936)">Die Schwäche erfasst die große Mehrheit des produktiven Marktes.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p707f3983e4">
+   <rect x="430.848" y="179.712" width="421.056" height="157.248"/>
+  </clipPath>
+ </defs>
+</svg>

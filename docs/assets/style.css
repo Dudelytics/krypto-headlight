@@ -25,3 +25,19 @@ a:focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:
 .prose .source-notes{font-size:14px;line-height:1.55;color:var(--muted);border-top:1px solid var(--line);margin-top:40px;padding-top:16px}
 .prose .source-notes h2{font-size:14px;line-height:1.55;letter-spacing:normal;margin:0 0 8px;text-wrap:wrap}
 .prose .source-notes p{max-width:none;margin:8px 0}.prose .source-notes ul{padding-left:20px}.prose .source-notes li{margin:4px 0}
+
+
+/* Permanent Headlight identity, approved 14 November 2026. */
+.site-header{background:#070605;border-bottom-color:#8F351F}
+.header-inner{display:flex;flex-direction:column;align-items:stretch;gap:10px;padding-block:0 12px}
+.brand-masthead{display:block;width:100%;line-height:0}
+.brand-masthead img{display:block;width:100%;height:auto}
+.header-inner nav{justify-content:center}
+.header-inner nav a{color:#F7F3ED}
+.header-inner nav a:hover{background:#312016;color:#FF9A49}
+article{padding-top:32px}
+.prose figure{margin:30px 0;max-width:100%}
+.prose figure img{display:block;width:100%;height:auto}
+.prose figcaption{font-size:14px;line-height:1.5;color:var(--muted);padding-top:8px}
+.prose th:not(:first-child),.prose td:not(:first-child){text-align:right;white-space:nowrap}
+@media(max-width:520px){.header-inner nav{gap:0}.header-inner nav a{font-size:14px;padding-inline:8px}.header-inner{gap:0}article{padding-top:24px}}

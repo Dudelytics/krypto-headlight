@@ -5,13 +5,13 @@
 <title>{% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
 <meta name="description" content="{{ page.description | default: site.description | escape }}">
 <link rel="canonical" href="{{ page.url | absolute_url }}">
-<link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}?v=source-endnotes-20261031">
+<link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}?v=headlight-brand-20261114">
 <link rel="alternate" type="application/atom+xml" title="Krypto-Headlight" href="{{ '/feed.xml' | absolute_url }}">
 <meta name="theme-color" content="#F7F3ED">
 </head>
 <body>
 <a class="skip-link" href="#inhalt">Direkt zum Inhalt</a>
-<header class="site-header"><div class="header-inner"><a class="brand" href="{{ '/' | relative_url }}"><span class="brand-copy">Dudelytics<span>Krypto-Headlight</span></span></a>
+<header class="site-header"><div class="header-inner"><a class="brand brand-masthead" href="{{ '/' | relative_url }}" aria-label="Dudelytics Krypto-Headlight – zur Startseite"><img src="{{ '/assets/images/headlight-masthead.webp' | relative_url }}" width="2172" height="724" alt="Dudelytics Krypto-Headlight – Die Wochenlage des produktiven Kryptomarkts" fetchpriority="high" decoding="async"></a>
 <nav aria-label="Hauptnavigation"><a href="{{ '/' | relative_url }}">Aktuell</a><a href="{{ '/archiv/' | relative_url }}">Archiv</a><a href="{{ '/ueber/' | relative_url }}">Über den Bericht</a><a href="https://dudelytics.com/research/">Research Hub</a></nav></div></header>
 <main id="inhalt">{{ content }}</main>
 <footer class="site-footer"><div class="footer-inner"><p>Dudelytics · Daten verstehen. Quellen sehen. Entscheidungen selbst treffen.</p>
@@ -28,3 +28,4 @@
 {% endif %}
 </div></footer>
 </body></html>
+
