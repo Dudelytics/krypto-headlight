@@ -41,3 +41,6 @@ article{padding-top:32px}
 .prose figcaption{font-size:14px;line-height:1.5;color:var(--muted);padding-top:8px}
 .prose th:not(:first-child),.prose td:not(:first-child){text-align:right;white-space:nowrap}
 @media(max-width:520px){.header-inner nav{gap:0}.header-inner nav a{font-size:14px;padding-inline:8px}.header-inner{gap:0}article{padding-top:24px}}
+
+
+.prose caption{caption-side:top;text-align:left;white-space:normal;font-size:14px;line-height:1.5;color:var(--muted);padding:0 0 10px}

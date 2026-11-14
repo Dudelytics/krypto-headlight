@@ -29,63 +29,77 @@ Ein gefallener Chipkönig, verunsicherte Anleger und die Frage, wem man sein dig
 
 Ein schwacher Freitag kann eine ganze Woche überschreiben – zumindest in der Wahrnehmung. Tatsächlich gewann der **Nasdaq Composite in der US-Handelswoche 2,30 %**, der S&P 500 **2,50 %**. Am Freitag fielen beide um **0,90 % beziehungsweise 0,40 %**. Im Kryptomarkt blieb dagegen ein deutliches Wochenminus. [AP, 13. November](https://apnews.com/article/wall-street-stocks-dow-nasdaq-12c1e8155fb85c3c7b09e058ed6d3c74)
 
-Unser **DPMI**, der die 30 größten von Dudelytics positiv verifizierten produktiven Kryptoprojekte abbildet, verlor im festen Wochenvergleich **11,20 %**. Bitcoin hielt sich etwas besser, Ether schlechter.
+Unser **DPMI**, der die 30 größten von Dudelytics positiv verifizierten produktiven Kryptoprojekte abbildet, verlor im festen Wochenvergleich **11,20 % – unsere Wochenleitzahl**. Bitcoin hielt sich etwas besser, Ether schlechter.
 
-| Vergleichsstichtage: 7. und 14. November, jeweils 00:00 UTC | Anfang | Ende | Veränderung |
-|---|---:|---:|---:|
-| Haupt-DPMI | 114,24 Punkte | 101,45 Punkte | −11,20 % |
-| Bitcoin | 75.775,28 USD | 68.313,71 USD | −9,85 % |
-| Ether | 2.236,28 USD | 1.932,28 USD | −13,59 % |
-| Gesamter Kryptomarkt | 2,57 Bio. USD | 2,32 Bio. USD | −9,77 % |
+<table>
+<caption>Marktvergleich: Zielstichtage 7. und 14. November 2026, jeweils 00:00 UTC; tatsächliche Quellzeiten siehe Datenstand.</caption>
+<thead><tr><th scope="col">Anlage / Index</th><th scope="col">Anfang</th><th scope="col">Ende</th><th scope="col">Veränderung</th></tr></thead>
+<tbody>
+<tr><th scope="row">Haupt-DPMI</th><td>114,24 Punkte</td><td>101,45 Punkte</td><td>−11,20 %</td></tr>
+<tr><th scope="row">Bitcoin</th><td>75.775,28 USD</td><td>68.313,71 USD</td><td>−9,85 %</td></tr>
+<tr><th scope="row">Ether</th><td>2.236,28 USD</td><td>1.932,28 USD</td><td>−13,59 %</td></tr>
+<tr><th scope="row">Gesamter Kryptomarkt</th><td>2,57 Bio. USD</td><td>2,32 Bio. USD</td><td>−9,77 %</td></tr>
+</tbody>
+</table>
 
 
 Das macht die Woche interessant: **Die Erholung der Aktien erreichte den Kryptomarkt nicht in vergleichbarer Weise.** Auch Glassnode beschreibt seit dem 9. November diese auseinanderlaufenden Wege. „Krypto fällt, weil Technologieaktien fallen“ erklärt deshalb nur einen Teil des Geschehens. [Glassnode, Datenstand 11. November](https://research.glassnode.com/the-week-onchain-week-45-2026/)
 
-<figure><a href="https://dudelytics.com/dpmi/#dpmi-main-title"><img src="/assets/images/2026-11-14/01-marktvergleich.svg" alt="Wochenvergleich: Haupt-DPMI −11,20 %, Bitcoin −9,85 %, Ether −13,59 %, Gesamtkryptomarkt −9,77 %."></a><figcaption>Der produktive Kryptomarkt im Vergleich. Grafik anklicken: öffentlicher DPMI.</figcaption></figure>
+<figure><a href="https://dudelytics.com/dpmi/#dpmi-main-title"><img src="/assets/images/2026-11-14/01-marktvergleich.svg" width="2176" height="1248" loading="lazy" decoding="async" alt="Wochenvergleich: Haupt-DPMI −11,20 %, Bitcoin −9,85 %, Ether −13,59 %, Gesamtkryptomarkt −9,77 %."></a><figcaption>Der produktive Kryptomarkt im Vergleich. Grafik anklicken: öffentlicher DPMI.</figcaption></figure>
 
 <h2 id="sektoren">2. Sieben Sektoren, siebenmal Minus</h2>
+
+**Anderes Messfenster:** Der Sektorvergleich reicht vom 7. November, 07:12 Uhr, bis zum 14. November, 05:02 Uhr MEZ und endet damit später als der Stichtagsvergleich in Abschnitt 1. Deshalb ergibt sich hier für den Haupt-DPMI ein Minus von 13,19 %; unsere Wochenleitzahl bleibt −11,20 %.
 
 Einen Gewinner mit positivem Vorzeichen gab es unter unseren Sektoren diesmal nicht. **KI hielt sich mit −8,11 % am besten, DeFi verlor mit −16,02 % am meisten.** Dazwischen liegen fast acht Prozentpunkte – ein erheblicher Unterschied innerhalb einer durchgehend roten Woche.
 
 
 
-| Sektor | Anfang | Ende | Veränderung |
-|---|---:|---:|---:|
-| KI | 116,30 | 106,86 | −8,11 % |
-| Reale Vermögenswerte (RWA) | 91,14 | 82,54 | −9,44 % |
-| Verbindungen zwischen Blockchains | 115,02 | 103,66 | −9,88 % |
-| Plattformen für Smart Contracts | 100,92 | 89,82 | −11,01 % |
-| Dezentrale physische Infrastruktur (DePIN) | 129,37 | 113,18 | −12,51 % |
-| Privatsphäre und Zero-Knowledge-Technik | 96,55 | 81,90 | −15,18 % |
-| Dezentrale Finanzanwendungen (DeFi) | 107,64 | 90,39 | −16,02 % |
+<table>
+<caption>Sektoren: 7. November, 06:12:07 UTC, bis 14. November 2026, 04:02:19 UTC. Indexstände in Punkten.</caption>
+<thead><tr><th scope="col">Sektor</th><th scope="col">Anfang</th><th scope="col">Ende</th><th scope="col">Veränderung</th></tr></thead>
+<tbody>
+<tr><th scope="row">KI</th><td>116,30</td><td>106,86</td><td>−8,11 %</td></tr>
+<tr><th scope="row">Reale Vermögenswerte (RWA)</th><td>91,14</td><td>82,54</td><td>−9,44 %</td></tr>
+<tr><th scope="row">Verbindungen zwischen Blockchains</th><td>115,02</td><td>103,66</td><td>−9,88 %</td></tr>
+<tr><th scope="row">Plattformen für Smart Contracts</th><td>100,92</td><td>89,82</td><td>−11,01 %</td></tr>
+<tr><th scope="row">Dezentrale physische Infrastruktur (DePIN)</th><td>129,37</td><td>113,18</td><td>−12,51 %</td></tr>
+<tr><th scope="row">Privatsphäre und Zero-Knowledge-Technik</th><td>96,55</td><td>81,90</td><td>−15,18 %</td></tr>
+<tr><th scope="row">Dezentrale Finanzanwendungen (DeFi)</th><td>107,64</td><td>90,39</td><td>−16,02 %</td></tr>
+</tbody>
+</table>
 
 Im selben Fenster verlor der Haupt-DPMI **13,19 %**. Der **DPMI Holder Quality (HQ)**, dessen Auswahl eine nachgewiesene wirtschaftliche Kopplung an den Token voraussetzt, gab **12,16 %** nach. Dieser engere Filter half relativ zum Hauptindex etwas; vor einem zweistelligen Verlust bewahrte er nicht. [Öffentliches Dudelytics-Archiv](https://github.com/Dudelytics/dpmi-public-data/tree/5c7b0e73c1ed4fe46a15c54c1d4af6950525f45a/data/2026-11-14)
 
-<figure><a href="https://dudelytics.com/dpmi/#holder-quality"><img src="/assets/images/2026-11-14/02-sektoren-hq.svg" alt="Alle sieben Sektoren im Minus; KI −8,11 %, DeFi −16,02 %. Haupt-DPMI −13,19 %, HQ −12,16 %."></a><figcaption>KI hält sich am besten, DeFi verliert am stärksten. Grafik anklicken: öffentlicher HQ.</figcaption></figure>
+<figure><a href="https://dudelytics.com/dpmi/#holder-quality"><img src="/assets/images/2026-11-14/02-sektoren-hq.svg" width="2176" height="1488" loading="lazy" decoding="async" alt="Alle sieben Sektoren im Minus; KI −8,11 %, DeFi −16,02 %. Haupt-DPMI −13,19 %, HQ −12,16 %."></a><figcaption>KI hält sich am besten, DeFi verliert am stärksten. Grafik anklicken: öffentlicher HQ.</figcaption></figure>
 
-Die Schwäche reicht weit über wenige Schwergewichte hinaus: Am Samstag um **08:37 Uhr MEZ** lagen nur **8,55 %** der für den Tagesvergleich auswertbaren Coins im Plus. Der Median ihrer Tagesveränderungen betrug **−3,82 %**. Eine kleine Zahl steigender Werte steht damit einer großen Mehrheit fallender gegenüber. Das ist eine Tagesaufnahme; eine vollständige Wochenzählung auf Einzelcoin-Ebene liegt uns nicht vor. [Dudelytics-Marktbreite](https://dudelytics.com/data/dpmi/fear-greed.php)
+Die Schwäche reicht weit über wenige Schwergewichte hinaus: Am Samstag um **08:37 Uhr MEZ** lagen nur **8,55 %** der für den **24-h-Vergleich** auswertbaren Coins im Plus. Der Median ihrer Veränderungen über **24 h** betrug **−3,82 %**. Eine kleine Zahl steigender Werte steht damit einer großen Mehrheit fallender gegenüber. Das ist eine Tagesaufnahme; eine vollständige Wochenzählung auf Einzelcoin-Ebene liegt uns nicht vor. [Dudelytics-Marktbreite](https://dudelytics.com/data/dpmi/fear-greed.php)
 
 <h2 id="stimmung">3. Angst, Stress und fehlende Käufer</h2>
 
 Unser **Dude Fear & Greed** beschreibt die Stimmung innerhalb des produktiven Kryptomarkts. Im gemeinsamen Archivfenster sank er von **49,72 auf 37,98 Punkte**; bis Samstag um **08:37 Uhr MEZ** ging es weiter auf **32,57 Punkte – Angst**. 
 
-<figure><a href="https://dudelytics.com/dpmi/#fg-title"><img src="/assets/images/2026-11-14/03-fear-greed.svg" alt="Dude Fear and Greed 32,57 Punkte: Angst. Puls 21,83; Siebentagestrend 36,78; 30-Tage-Regime 40,86."></a><figcaption>Die Stimmung im produktiven Kryptomarkt. Grafik anklicken: Dude Fear & Greed.</figcaption></figure>
+<figure><a href="https://dudelytics.com/dpmi/#fg-title"><img src="/assets/images/2026-11-14/03-fear-greed.svg" width="2176" height="1248" loading="lazy" decoding="async" alt="Dude Fear and Greed 32,57 Punkte: Angst. Puls 21,83; Siebentagestrend 36,78; 30-Tage-Regime 40,86."></a><figcaption>Die Stimmung im produktiven Kryptomarkt. Grafik anklicken: Dude Fear & Greed.</figcaption></figure>
 
 Der **DVIX** ergänzt die Stimmung um gemessenen Marktstress. Er berücksichtigt unter anderem Schwankungen, Abwärtsschocks und den Gleichlauf der Sektoren. Auf seiner Skala von 0 bis 100 war die Anspannung schon vor den großen Meldungen sichtbar:
 
-| Beobachtung, jeweils UTC | Haupt-DPMI | DVIX |
-|---|---:|---:|
-| 7. November, 06:12 | 114,11 | 40,86 |
-| 10. November, 07:27 | 110,02 | 47,38 |
-| 12. November, 07:27 | 106,19 | 60,15 |
-| 13. November, 06:57 | 102,45 | 74,84 |
-| 14. November, 07:37 | 99,49 | 73,73 |
+<table>
+<caption>Marktstress: ausgewählte Messpunkte vom 7. bis 14. November 2026, einschließlich Samstagmorgen. Indexstände in Punkten.</caption>
+<thead><tr><th scope="col">Beobachtung, jeweils UTC</th><th scope="col">Haupt-DPMI</th><th scope="col">DVIX</th></tr></thead>
+<tbody>
+<tr><th scope="row">7. November, 06:12</th><td>114,11</td><td>40,86</td></tr>
+<tr><th scope="row">10. November, 07:27</th><td>110,02</td><td>47,38</td></tr>
+<tr><th scope="row">12. November, 07:27</th><td>106,19</td><td>60,15</td></tr>
+<tr><th scope="row">13. November, 06:57</th><td>102,45</td><td>74,84</td></tr>
+<tr><th scope="row">14. November, 07:37</th><td>99,49</td><td>73,73</td></tr>
+</tbody>
+</table>
 
-**Von einer nachhaltigen Entspannung kann am Samstagmorgen keine Rede sein.** [DVIX](https://dudelytics.com/data/dpmi/dvix.php) · [Skalen und Begriffe](https://headlight.dudelytics.com/ueber/)
+Der DPMI-Stand von **99,49 Punkten** gehört zum späteren Messpunkt am Samstag um **08:37 Uhr MEZ**; die **101,45 Punkte** aus Abschnitt 1 gehören zum früheren Wochenstichtag. **Von einer nachhaltigen Entspannung kann am Samstagmorgen keine Rede sein.** [DVIX](https://dudelytics.com/data/dpmi/dvix.php) · [Skalen und Begriffe](https://headlight.dudelytics.com/ueber/)
 
-<figure><a href="https://dudelytics.com/dpmi/#dvix-title"><img src="/assets/images/2026-11-14/04-dvix.svg" alt="DVIX: beobachteter Stressverlauf vom 7. bis 14. November, letzter Wert 73,73, hoher Stress."></a><figcaption>Der DVIX zeigt anhaltend hohen Marktstress. Grafik anklicken: öffentlicher DVIX.</figcaption></figure>
+<figure><a href="https://dudelytics.com/dpmi/#dvix-title"><img src="/assets/images/2026-11-14/04-dvix.svg" width="2176" height="1248" loading="lazy" decoding="async" alt="DVIX: beobachteter Stressverlauf vom 7. bis 14. November, letzter Wert 73,73, hoher Stress."></a><figcaption>Der DVIX zeigt anhaltend hohen Marktstress. Grafik anklicken: öffentlicher DVIX.</figcaption></figure>
 
-**Inflation blieb ein Gegenwind.** Am Dienstag meldete die US-Statistikbehörde für Oktober einen Verbraucherpreisanstieg von **0,40 %** zum Vormonat, ohne Lebensmittel und Energie **0,30 %**. Am Freitag folgten Erzeugerpreise von **+0,30 %** zum Vormonat und **+6,50 %** zum Vorjahr. Damit blieb die Zinsfrage im Zentrum der Märkte. [BLS: Verbraucherpreise](https://www.bls.gov/news.release/CPI.htm) · [BLS: Erzeugerpreise](https://www.bls.gov/news.release/ppi.nr0.htm)
+**Inflation blieb ein Gegenwind.** Am Dienstag meldete die US-Statistikbehörde für Oktober einen Verbraucherpreisanstieg von **0,40 %** zum Vormonat, ohne Lebensmittel und Energie **0,30 %**. Am Freitag folgte der US-Erzeugerpreisindex für die Endnachfrage: **+0,30 %** zum Vormonat und **+6,50 %** zum Vorjahr. Damit blieb die Zinsfrage im Zentrum der Märkte. [BLS: Verbraucherpreise](https://www.bls.gov/news.release/CPI.htm) · [BLS: Erzeugerpreise](https://www.bls.gov/news.release/archives/ppi_11132026.htm)
 
 **Nvidia verlor seinen Gründer als Chef.** Am 12. November gab das Unternehmen den sofortigen Rücktritt Jensen Huangs bekannt; Finanzchefin Colette Kress übernahm vorläufig. Eine solche Führungskrise trifft einen wichtigen Namen des KI-Booms. Unsere Messung zeigt zugleich: Der Stressanstieg begann vorher, und KI-Kryptoprojekte hielten sich im Sektorvergleich besser als der Rest. [Nvidia](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition)
 
@@ -173,6 +187,9 @@ Offene Nachweise: Hyperliquids 126-%-Quote stammt aus einem veröffentlichten Be
 
 Zusätzlich ausgewertet: Bitcoin2Go vom 13. November, Capital-on-Chain vom 14. November, SPIEGEL „Die Lage am Morgen“ vom 13. und 14. November sowie aktuelle Handelsblatt-Briefings. Newsletter dienten der Themenrecherche; übernommene Sachangaben sind unmittelbar verlinkt. Persönliche E-Mail- und Abonnentendaten sind nicht Teil dieser Ausgabe. Offenlegung: Der Herausgeber hält selbst Kryptowerte; [Hinweis zu eigenen Positionen](/ueber/#eigene-positionen).
 
+**Prüfung und Klarstellung am 14. November 2026:** Die unterschiedlichen DPMI-Vergleichsfenster und Indexstände sind direkt im Haupttext erklärt; −11,20 % bleibt die Wochenleitzahl. Marktbreite und Median sind ausdrücklich als 24-h-Werte gekennzeichnet. Der DVIX-Startwert ist im öffentlichen Quelldatensatz mit 40,8612 Punkten belegt; die Übereinstimmung mit dem auf 40,86 gerundeten 30-Tage-Wert des Dude Fear & Greed ist zufällig. Die BLS-Veröffentlichung vom 13. November bestätigt für die Endnachfrage +0,3 % zum Vormonat (saisonbereinigt) und +6,5 % zum Vorjahr (nicht saisonbereinigt). Grafiken haben Größenangaben; Tabellen besitzen Beschriftungen und zugeordnete Kopfzellen.
+
 **Herausgeber: Dudelytics. CoinGecko ist Rohdatenanbieter der Dudelytics-Indizes, weder Herausgeber noch Sponsor. Keine Kauf- oder Verkaufsempfehlung.**
 
 </div>
+

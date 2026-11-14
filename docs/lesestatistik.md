@@ -6,11 +6,11 @@ permalink: /lesestatistik/
 
 # Datenschutz und Lesestatistik
 
-Stand: 31. Oktober 2026. Diese Ergänzung gilt für das Krypto-Headlight unter headlight.dudelytics.com. Verantwortlich ist Axel Lämmle, Sternstraße 10, 82256 Fürstenfeldbruck; Kontakt: webmaster@dudelytics.com. Weitere Informationen zu deinen Rechten und Kontaktmöglichkeiten enthält die [allgemeine Datenschutzerklärung](https://dudelytics.com/datenschutz/).
+Stand: 14. November 2026. Diese Ergänzung gilt für das Krypto-Headlight unter headlight.dudelytics.com. Verantwortlich ist Axel Lämmle, Sternstraße 10, 82256 Fürstenfeldbruck; Kontakt: webmaster@dudelytics.com. Weitere Informationen zu deinen Rechten und Kontaktmöglichkeiten enthält die [allgemeine Datenschutzerklärung](https://dudelytics.com/datenschutz/).
 
 ## Deine Entscheidung
 
-Die Lesestatistik ist standardmäßig eingeschaltet. Unter „Lesestatistik verwalten“ im Seitenfuß kannst du sie ausschalten. Dabei speichern wir ausschließlich deine Abschaltentscheidung im lokalen Browserspeicher, ohne individuelle Kennung. Sie gilt in diesem Browser für diese Website auch nach dem Neuladen, bis du sie wieder einschaltest oder den Browserspeicher löschst. Ist der Browserspeicher gesperrt, wirkt das Ausschalten nur für den aktuellen Seitenaufruf. Bereits übertragene Daten werden dadurch nicht rückwirkend gelöscht. Wir respektieren Do Not Track und Global Privacy Control. Lesen ist unabhängig von der Messung möglich.
+Die Lesestatistik ist standardmäßig eingeschaltet und startet automatisch, wenn JavaScript verfügbar ist und keine Abwahl oder kein Datenschutzsignal entgegensteht. Unter „Lesestatistik verwalten“ im Seitenfuß kannst du sie ausschalten. Dabei speichern wir ausschließlich deine Abschaltentscheidung im lokalen Browserspeicher, ohne individuelle Kennung. Sie gilt in diesem Browser für diese Website auch nach dem Neuladen, bis du sie wieder einschaltest oder den Browserspeicher löschst. Ist der Browserspeicher gesperrt, wirkt das Ausschalten nur für den aktuellen Seitenaufruf. Bereits übertragene Daten werden dadurch nicht rückwirkend gelöscht. Wir respektieren Do Not Track und Global Privacy Control. Lesen ist unabhängig von der Messung möglich.
 
 ## Zweck und Messwerte
 
@@ -45,3 +45,4 @@ Nach der Anmeldung erhältst du eine Bestätigungsmail. Erst wenn du deren Link 
 Brevo verarbeitet hierfür auch den Anmelde- und Bestätigungsstatus sowie technische Verbindungs- und Versanddaten, etwa Zeitpunkte, IP-Adressen und Zustellfehler. Diese dienen dem Betrieb, der Zustellung, dem Schutz vor Missbrauch und dem Nachweis der Anmeldung. Die Adresse wird während des Abonnements für den Versand verwendet. Nach einer Abmeldung wird sie für weitere Newsletter gesperrt; ein Sperrvermerk und erforderliche Nachweise können darüber hinaus erhalten bleiben, damit die Abmeldung beachtet wird. Eine Abmeldung ist deshalb nicht automatisch die vollständige Löschung aller technischen Protokolle. Lösch- und Auskunftsanfragen kannst du an die oben genannte Kontaktadresse richten.
 
 Informationen zur Verarbeitung durch den Versanddienst findest du in der [Datenschutzerklärung von Brevo](https://www.brevo.com/de/legal/privacypolicy/). Das Formular wird auf einer Brevo-Domain geöffnet; Abonnentendaten werden nicht im öffentlichen GitHub-Repository gespeichert.
+

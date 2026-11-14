@@ -5,7 +5,7 @@
 <title>{% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
 <meta name="description" content="{{ page.description | default: site.description | escape }}">
 <link rel="canonical" href="{{ page.url | absolute_url }}">
-<link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}?v=headlight-brand-20261114">
+<link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}?v=headlight-review-20261114">
 <link rel="alternate" type="application/atom+xml" title="Krypto-Headlight" href="{{ '/feed.xml' | absolute_url }}">
 <meta name="theme-color" content="#F7F3ED">
 </head>
@@ -22,10 +22,11 @@
 <p>Wir erfassen keine Namen oder E-Mail-Adressen. Die Statistik läuft ohne Tracking-Cookies. Umami misst Seitenaufrufe und Nutzung; du kannst die Messung jederzeit ausschalten. <a href="{{ '/lesestatistik/' | relative_url }}">Details zur Lesestatistik</a>.</p>
 <button id="analytics-start" type="button">Messung einschalten</button>
 <button id="analytics-stop" type="button" hidden>Messung ausschalten</button>
-<p id="analytics-status" role="status">Ohne JavaScript bleibt die Messung ausgeschaltet.</p>
+<p id="analytics-status" role="status">Die Lesestatistik ist standardmäßig eingeschaltet. Zur Erfassung ist JavaScript erforderlich.</p>
 </details>
-<script id="headlight-analytics" defer src="{{ '/assets/analytics.js' | relative_url }}?v=default-on-1" data-website-id="{{ site.headlight_analytics.website_id | escape }}" data-script-url="{{ site.headlight_analytics.script_url | escape }}"></script>
+<script id="headlight-analytics" defer src="{{ '/assets/analytics.js' | relative_url }}?v=default-on-2" data-website-id="{{ site.headlight_analytics.website_id | escape }}" data-script-url="{{ site.headlight_analytics.script_url | escape }}"></script>
 {% endif %}
 </div></footer>
 </body></html>
+
 

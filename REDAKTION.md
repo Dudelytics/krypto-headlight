@@ -20,3 +20,6 @@
 16. Bei großen Ereignissen den bekannten Betrag, Ereigniszeitpunkt und handelnden Akteur beziehungsweise die ausdrücklich zugeschriebene Urheberschaft bei der ersten ausführlichen Erwähnung nennen. Unbekanntes nicht ergänzen. Politische Diskussion, veröffentlichter Entwurf und beschlossenes Recht auseinanderhalten.
 17. Aussagen über tägliche ETF-Salden mit einer kompakten Tagestabelle belegen. Wochen- und Tagesdaten klar unterscheiden. UTC-Stichtage lesbar angeben; bei abweichenden Quellpunkten genügt im Haupttext ein kurzer Hinweis, die präzisen Nachweise bleiben im Quellenblock.
 18. Skalen und Fachbegriffe auf der Über-Seite erklären und im Bericht passend verlinken. Schwellen nur aus der tatsächlichen Methodik übernehmen, niemals von ähnlich benannten Fremdindizes. Technische Versionsnamen bleiben im Nachweisblock.
+
+
+19. Pro Ausgabe eine ausdrücklich benannte Wochenleitzahl verwenden. Weitere Messfenster unmittelbar an der jeweiligen Tabelle erklären; spätere Indexstände zeitlich zuordnen. Marktbreite und Median mit „24 h“ kennzeichnen, falls Tageswerte. Grafiken in figure/figcaption mit Bildbreite und -höhe; Tabellen mit caption sowie scope="col" und scope="row" ausgeben. Diese Semantik muss auch im Account-Reader erhalten bleiben.

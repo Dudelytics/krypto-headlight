@@ -20,7 +20,7 @@
   let active = 0, last = performance.now(), interaction = last;
   const sent = new Set();
   const article = document.querySelector('article .prose');
-  const isIssue = /^\/ausgaben\/\d{4}-\d{2}-\d{2}\/$/.test(location.pathname);
+  const isIssue = !!article && (location.pathname === '/' || /^\/ausgaben\/\d{4}-\d{2}-\d{2}\/$/.test(location.pathname));
   const path = isIssue ? location.pathname : ['/','/archiv/','/ueber/'].includes(location.pathname) ? location.pathname : '/other/';
   let referrer = '';
   try { referrer = new URL(document.referrer).origin; } catch { /* Direct or unavailable. */ }
@@ -88,3 +88,4 @@
   if (!optedOut) enable();
   else status.textContent = 'Messung ausgeschaltet.';
 })();
+
