@@ -1,4 +1,5 @@
 ---
+translation_url: /en/privacy/
 layout: default
 title: "Datenschutz und Lesestatistik"
 permalink: /lesestatistik/
@@ -6,11 +7,11 @@ permalink: /lesestatistik/
 
 # Datenschutz und Lesestatistik
 
-Stand: 14. November 2026. Diese Ergänzung gilt für das Krypto-Headlight unter headlight.dudelytics.com. Verantwortlich ist Axel Lämmle, Sternstraße 10, 82256 Fürstenfeldbruck; Kontakt: webmaster@dudelytics.com. Weitere Informationen zu deinen Rechten und Kontaktmöglichkeiten enthält die [allgemeine Datenschutzerklärung](https://dudelytics.com/datenschutz/).
+Stand: 31. Oktober 2026. Diese Ergänzung gilt für das Krypto-Headlight unter headlight.dudelytics.com. Verantwortlich ist Axel Lämmle, Sternstraße 10, 82256 Fürstenfeldbruck; Kontakt: webmaster@dudelytics.com. Weitere Informationen zu deinen Rechten und Kontaktmöglichkeiten enthält die [allgemeine Datenschutzerklärung](https://dudelytics.com/datenschutz/).
 
 ## Deine Entscheidung
 
-Die Lesestatistik ist standardmäßig eingeschaltet und startet automatisch, wenn JavaScript verfügbar ist und keine Abwahl oder kein Datenschutzsignal entgegensteht. Unter „Lesestatistik verwalten“ im Seitenfuß kannst du sie ausschalten. Dabei speichern wir ausschließlich deine Abschaltentscheidung im lokalen Browserspeicher, ohne individuelle Kennung. Sie gilt in diesem Browser für diese Website auch nach dem Neuladen, bis du sie wieder einschaltest oder den Browserspeicher löschst. Ist der Browserspeicher gesperrt, wirkt das Ausschalten nur für den aktuellen Seitenaufruf. Bereits übertragene Daten werden dadurch nicht rückwirkend gelöscht. Wir respektieren Do Not Track und Global Privacy Control. Lesen ist unabhängig von der Messung möglich.
+Die Lesestatistik ist standardmäßig eingeschaltet. Unter „Lesestatistik verwalten“ im Seitenfuß kannst du sie ausschalten. Dabei speichern wir ausschließlich deine Abschaltentscheidung im lokalen Browserspeicher, ohne individuelle Kennung. Sie gilt in diesem Browser für diese Website auch nach dem Neuladen, bis du sie wieder einschaltest oder den Browserspeicher löschst. Ist der Browserspeicher gesperrt, wirkt das Ausschalten nur für den aktuellen Seitenaufruf. Bereits übertragene Daten werden dadurch nicht rückwirkend gelöscht. Wir respektieren Do Not Track und Global Privacy Control. Lesen ist unabhängig von der Messung möglich.
 
 ## Zweck und Messwerte
 
@@ -38,7 +39,7 @@ Die Headlight-Seiten werden über GitHub Pages ausgeliefert. Dabei verarbeitet G
 
 ## Krypto-Headlight per E-Mail
 
-Das kostenlose E-Mail-Abo ist freiwillig und unabhängig vom Lesen der Website. Für Anmeldung, Bestätigung, Versand und Abmeldung verwenden wir Brevo. Im Anmeldeformular fragen wir nur deine E-Mail-Adresse und deine Einwilligung ab. Dabei handelt es sich um personenbezogene Daten; die Aussagen zur datensparsamen Lesestatistik ersetzen diese gesonderten Hinweise nicht.
+Das kostenlose E-Mail-Abo ist freiwillig und unabhängig vom Lesen der Website. Für Deutsch und Englisch gibt es jeweils eine eigene Anmeldung, Bestätigungsmail und Empfängerliste. Die Anmeldung für eine Sprache meldet dich nicht automatisch für die andere an. Für Anmeldung, Bestätigung, Versand und Abmeldung verwenden wir Brevo. Im Anmeldeformular fragen wir nur deine E-Mail-Adresse und deine Einwilligung ab. Dabei handelt es sich um personenbezogene Daten; die Aussagen zur datensparsamen Lesestatistik ersetzen diese gesonderten Hinweise nicht.
 
 Nach der Anmeldung erhältst du eine Bestätigungsmail. Erst wenn du deren Link anklickst, wird deine Adresse in die Headlight-Versandliste aufgenommen. Wir verwenden sie für die neuen Headlight-Ausgaben. Du kannst deine Einwilligung jederzeit für die Zukunft über den Abmeldelink in jeder Ausgabe oder per Nachricht an webmaster@dudelytics.com widerrufen.
 

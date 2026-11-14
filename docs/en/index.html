@@ -1,0 +1,20 @@
+---
+lang: en
+title: "The weekly briefing on the productive crypto market"
+description: "Original Dudelytics data, clear analysis and the week's important crypto developments. Public and free."
+translation_url: /
+---
+{% assign english_posts = site.posts | where: 'lang', 'en' %}
+{% assign latest = english_posts.first %}
+{% if latest %}
+<article>
+<p class="eyebrow">Latest edition · {{ latest.date | date: "%d %B %Y" }}</p>
+<h1>{{ latest.title | escape }}</h1>
+<div class="prose">{{ latest.content }}</div>
+{% include discussion.html issue=latest %}
+</article>
+<p><a href="{{ '/en/archive/' | relative_url }}">Earlier English editions →</a></p>
+{% else %}
+<section class="hero"><p class="eyebrow">Public · Free · Every Saturday</p><h1>Crypto-Headlight</h1><p>The first English edition will appear here after editorial review.</p></section>
+{% endif %}
+{% include newsletter.html %}

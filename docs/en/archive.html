@@ -1,0 +1,10 @@
+---
+lang: en
+title: "Edition archive"
+description: "Previously published English editions of Dudelytics Crypto-Headlight."
+permalink: /en/archive/
+translation_url: /archiv/
+---
+<h1>Edition archive</h1><p>Every published English edition remains available at its own address. Corrections are recorded in the relevant edition. The English archive starts on 14 November 2026; earlier editions are available in the <a href="{{ '/archiv/' | relative_url }}" lang="de">German archive</a>.</p>
+{% assign english_posts = site.posts | where: 'lang', 'en' %}
+{% if english_posts.size > 0 %}<ul class="archive">{% for post in english_posts %}<li><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %B %Y" }}</time> <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a><p>{{ post.description | escape }}</p></li>{% endfor %}</ul>{% else %}<p>No English edition has been published yet.</p>{% endif %}

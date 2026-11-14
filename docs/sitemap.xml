@@ -3,8 +3,7 @@ layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>{{ '/' | absolute_url | xml_escape }}</loc></url>
-<url><loc>{{ '/archiv/' | absolute_url | xml_escape }}</loc></url>
-<url><loc>{{ '/ueber/' | absolute_url | xml_escape }}</loc></url>
+{% assign static_paths = '/,/archiv/,/ueber/,/en/,/en/archive/,/en/about/' | split: ',' %}
+{% for path in static_paths %}<url><loc>{{ path | absolute_url | xml_escape }}</loc></url>{% endfor %}
 {% for post in site.posts %}<url><loc>{{ post.url | absolute_url | xml_escape }}</loc><lastmod>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</lastmod></url>{% endfor %}
 </urlset>

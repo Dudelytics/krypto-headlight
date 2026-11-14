@@ -44,3 +44,8 @@ article{padding-top:32px}
 
 
 .prose caption{caption-side:top;text-align:left;white-space:normal;font-size:14px;line-height:1.5;color:var(--muted);padding:0 0 10px}
+
+.header-controls{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:12px}
+.header-controls .language-switch{gap:4px;border-left:1px solid #765640;padding-left:12px}
+.language-switch a[aria-current="page"]{color:#fff;background:#8F351F}
+@media(max-width:520px){.header-controls{gap:4px}.header-controls .language-switch{padding-left:8px}}

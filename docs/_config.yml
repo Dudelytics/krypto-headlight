@@ -25,3 +25,9 @@ headlight_analytics:
 headlight_newsletter:
   enabled: true
   signup_url: "https://d28e7737.sibforms.com/serve/MUIFAPtnwnRx7OPISSVPbxq_pAaeiGZjq8GHlyIWslRaankVGOKkqUyE1bMK_lIab0zkpWiXXXp4olj85auw5A-pBj_FqfJmldr7qbL3A3falx4Fs4ncTHg4jFSKYPq9eulNXeUq4hKE6rAi632J05ws3T_eRGeOkGiBDyt_T-z8fO34CRQkgmWV379_feM5NMN0wUNdGimHYJ-qVQ=="
+
+
+# English edition: separate confirmed recipients and English signup.
+headlight_newsletter_en:
+  enabled: true
+  signup_url: "https://d28e7737.sibforms.com/serve/MUIFAFYsDB3jbw2f_vfxVDV_aqX0uZTSm1_dlePnY9KsIoivXAIuV1hgAYuSMq26r171jBkS78S-w6pyvqvyZrsXptzHGF0tM5PlUoNfZttF4VY0UHJG3lNvNISUxs5fALsukj3dMK0aFpZF9lqyFrXSG17bmz5_xVQ0dJ0fX_uv_pakyYXAbY7y2pGNF79abd1-wtdZrdFk-fmQxQ=="

@@ -11,8 +11,20 @@
   let scriptUrl;
   try { scriptUrl = new URL(config.dataset.scriptUrl); } catch { return; }
   if (scriptUrl.protocol !== 'https:' || !['cloud.umami.is', 'analytics.eu.umami.is', 'analytics.us.umami.is'].includes(scriptUrl.hostname) || scriptUrl.pathname !== '/script.js') return;
+  const english = document.documentElement?.lang === 'en';
+  const copy = english ? {
+    privacy: 'Your privacy signal is respected: measurement is disabled.',
+    enabled: 'Measurement is enabled for this page view.',
+    unavailable: 'Measurement is unavailable. You can continue reading.',
+    disabled: 'Measurement is disabled.'
+  } : {
+    privacy: 'Dein Datenschutzsignal wird respektiert: Messung ausgeschaltet.',
+    enabled: 'Messung für diesen Seitenaufruf eingeschaltet.',
+    unavailable: 'Messung nicht verfügbar. Du kannst den Bericht weiter lesen.',
+    disabled: 'Messung ausgeschaltet.'
+  };
   const privacySignal = navigator.globalPrivacyControl || navigator.doNotTrack === '1';
-  if (privacySignal) { start.disabled = true; status.textContent = 'Dein Datenschutzsignal wird respektiert: Messung ausgeschaltet.'; return; }
+  if (privacySignal) { start.disabled = true; status.textContent = copy.privacy; return; }
   const preferenceKey = 'headlight-statistics-disabled';
   let optedOut = false;
   try { optedOut = localStorage.getItem(preferenceKey) === '1'; } catch { /* Storage unavailable. */ }
@@ -20,8 +32,8 @@
   let active = 0, last = performance.now(), interaction = last;
   const sent = new Set();
   const article = document.querySelector('article .prose');
-  const isIssue = !!article && (location.pathname === '/' || /^\/ausgaben\/\d{4}-\d{2}-\d{2}\/$/.test(location.pathname));
-  const path = isIssue ? location.pathname : ['/','/archiv/','/ueber/'].includes(location.pathname) ? location.pathname : '/other/';
+  const isIssue = !!article && (['/', '/en/'].includes(location.pathname) || /^\/(?:ausgaben|en\/editions)\/\d{4}-\d{2}-\d{2}\/$/.test(location.pathname));
+  const path = isIssue ? location.pathname : ['/','/archiv/','/ueber/','/en/','/en/archive/','/en/about/'].includes(location.pathname) ? location.pathname : '/other/';
   let referrer = '';
   try { referrer = new URL(document.referrer).origin; } catch { /* Direct or unavailable. */ }
   function track(name) {
@@ -38,13 +50,13 @@
     if (!ready) { failed(); return; }
     start.disabled = false;
     if (!enabled) return;
-    status.textContent = 'Messung für diesen Seitenaufruf eingeschaltet.';
+    status.textContent = copy.enabled;
     if (!pageSent) { pageSent = true; track(); }
     last = interaction = performance.now();
   }
   function failed() {
     enabled = false; loading = false; start.disabled = false; stop.hidden = true;
-    status.textContent = 'Messung nicht verfügbar. Du kannst den Bericht weiter lesen.';
+    status.textContent = copy.unavailable;
   }
   function enable() {
     if (enabled || loading) return;
@@ -64,7 +76,7 @@
   });
   stop.addEventListener('click', () => {
     try { localStorage.setItem(preferenceKey, '1'); } catch {}
-    enabled = false; stop.hidden = true; status.textContent = 'Messung ausgeschaltet.';
+    enabled = false; stop.hidden = true; status.textContent = copy.disabled;
   });
   for (const type of ['pointerdown','keydown','scroll']) window.addEventListener(type, () => { interaction = performance.now(); }, { passive: true });
   setInterval(() => {
@@ -86,6 +98,6 @@
     else if (article?.contains(link) && ['http:','https:'].includes(url.protocol) && url.hostname !== location.hostname) once('source_click');
   });
   if (!optedOut) enable();
-  else status.textContent = 'Messung ausgeschaltet.';
+  else status.textContent = copy.disabled;
 })();
 

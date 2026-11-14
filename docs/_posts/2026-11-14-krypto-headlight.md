@@ -1,5 +1,8 @@
 ---
 layout: post
+lang: de
+translation_url: /en/editions/2026-11-14/
+translation_key: "2026-11-14"
 title: "Die Kurse fallen. Die Anwendungen wachsen. Das Vertrauen muss mithalten."
 description: "Eine rote Krypto-Woche, Angst und hoher Marktstress – während Zahlungen, Verwahrung und tokenisierte Wertpapiere weiter vorankommen. Mit eigenen Dudelytics-Grafiken."
 date: 2026-11-14 09:07:18 +0100

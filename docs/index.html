@@ -1,7 +1,9 @@
 ---
+translation_url: /en/
 title: "Die Wochenlage des produktiven Kryptomarkts"
 ---
-{% assign latest = site.posts.first %}
+{% assign german_posts = site.posts | where_exp: "post", "post.lang != 'en'" %}
+{% assign latest = german_posts.first %}
 {% if latest %}
 <article>
 <p class="eyebrow">Aktuelle Ausgabe · {{ latest.date | date: "%d.%m.%Y" }}</p>
@@ -15,3 +17,4 @@ title: "Die Wochenlage des produktiven Kryptomarkts"
 <section class="hero"><p class="eyebrow">Öffentlich · Kostenlos · Jeden Samstag</p><h1>Krypto-Headlight</h1><p class="lead">Die Wochenlage des produktiven Kryptomarkts.</p><p>Die erste Markt-Ausgabe wird nach redaktioneller Prüfung hier veröffentlicht.</p></section>
 {% endif %}
 {% include newsletter.html %}
+

@@ -1,32 +1,37 @@
+{% assign is_en = false %}{% if page.lang == 'en' %}{% assign is_en = true %}{% endif %}
+{% if is_en %}{% assign home_path = '/en/' %}{% assign archive_path = '/en/archive/' %}{% assign about_path = '/en/about/' %}{% assign privacy_path = '/en/privacy/' %}{% assign feed_path = '/en/feed.xml' %}{% assign masthead = '/assets/images/headlight-masthead-en.webp' %}{% assign site_title = 'Dudelytics Crypto-Headlight' %}{% assign de_url = page.translation_url | default: '/' %}{% assign en_url = page.url %}{% else %}{% assign home_path = '/' %}{% assign archive_path = '/archiv/' %}{% assign about_path = '/ueber/' %}{% assign privacy_path = '/lesestatistik/' %}{% assign feed_path = '/feed.xml' %}{% assign masthead = '/assets/images/headlight-masthead.webp' %}{% assign site_title = site.title %}{% assign de_url = page.url %}{% assign en_url = page.translation_url | default: '/en/' %}{% endif %}
 <!doctype html>
-<html lang="de">
+<html lang="{% if is_en %}en{% else %}de{% endif %}">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
+<title>{% if page.title %}{{ page.title | escape }} · {% endif %}{{ site_title | escape }}</title>
 <meta name="description" content="{{ page.description | default: site.description | escape }}">
 <link rel="canonical" href="{{ page.url | absolute_url }}">
-<link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}?v=headlight-review-20261114">
-<link rel="alternate" type="application/atom+xml" title="Krypto-Headlight" href="{{ '/feed.xml' | absolute_url }}">
+{% if page.translation_url %}<link rel="alternate" hreflang="de" href="{{ de_url | absolute_url }}"><link rel="alternate" hreflang="en" href="{{ en_url | absolute_url }}">{% endif %}
+<link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}?v=headlight-bilingual-20261114">
+<link rel="alternate" type="application/atom+xml" title="{{ site_title | escape }}" href="{{ feed_path | absolute_url }}">
 <meta name="theme-color" content="#F7F3ED">
 </head>
 <body>
-<a class="skip-link" href="#inhalt">Direkt zum Inhalt</a>
-<header class="site-header"><div class="header-inner"><a class="brand brand-masthead" href="{{ '/' | relative_url }}" aria-label="Dudelytics Krypto-Headlight – zur Startseite"><img src="{{ '/assets/images/headlight-masthead.webp' | relative_url }}" width="2172" height="724" alt="Dudelytics Krypto-Headlight – Die Wochenlage des produktiven Kryptomarkts" fetchpriority="high" decoding="async"></a>
-<nav aria-label="Hauptnavigation"><a href="{{ '/' | relative_url }}">Aktuell</a><a href="{{ '/archiv/' | relative_url }}">Archiv</a><a href="{{ '/ueber/' | relative_url }}">Über den Bericht</a><a href="https://dudelytics.com/research/">Research Hub</a></nav></div></header>
+<a class="skip-link" href="#inhalt">{% if is_en %}Skip to content{% else %}Direkt zum Inhalt{% endif %}</a>
+<header class="site-header"><div class="header-inner"><a class="brand brand-masthead" href="{{ home_path | relative_url }}" aria-label="{% if is_en %}Dudelytics Crypto-Headlight — home{% else %}Dudelytics Krypto-Headlight – zur Startseite{% endif %}"><img src="{{ masthead | relative_url }}" width="2172" height="724" alt="{% if is_en %}Dudelytics Crypto-Headlight — The weekly briefing on the productive crypto market{% else %}Dudelytics Krypto-Headlight – Die Wochenlage des produktiven Kryptomarkts{% endif %}" fetchpriority="high" decoding="async"></a>
+<div class="header-controls">
+<nav aria-label="{% if is_en %}Main navigation{% else %}Hauptnavigation{% endif %}"><a href="{{ home_path | relative_url }}">{% if is_en %}Latest{% else %}Aktuell{% endif %}</a><a href="{{ archive_path | relative_url }}">{% if is_en %}Archive{% else %}Archiv{% endif %}</a><a href="{{ about_path | relative_url }}">{% if is_en %}About{% else %}Über den Bericht{% endif %}</a><a href="https://dudelytics.com/{% if is_en %}en/{% endif %}research/">Research Hub</a></nav>
+<nav class="language-switch" aria-label="{% if is_en %}Language{% else %}Sprache{% endif %}"><a href="{{ de_url | relative_url }}" lang="de" hreflang="de"{% unless is_en %} aria-current="page"{% endunless %}>DE</a><a href="{{ en_url | relative_url }}" lang="en" hreflang="en"{% if is_en %} aria-current="page"{% endif %}>EN</a></nav>
+</div></div></header>
 <main id="inhalt">{{ content }}</main>
-<footer class="site-footer"><div class="footer-inner"><p>Dudelytics · Daten verstehen. Quellen sehen. Entscheidungen selbst treffen.</p>
-<p><a href="https://dudelytics.com/impressum/">Impressum</a> · <a href="{{ '/lesestatistik/' | relative_url }}">Datenschutz &amp; Lesestatistik</a> · <a href="https://dudelytics.com/lizenzen/">Lizenzen</a> · <a href="{{ '/feed.xml' | relative_url }}">Atom-Feed</a> · <a href="https://github.com/Dudelytics/krypto-headlight">GitHub</a></p>
-<p class="small">Keine Anlageberatung. CoinGecko ist Rohdatenanbieter, nicht Herausgeber oder Sponsor. Diese Berichtsseite wird bei GitHub Pages gehostet.</p>{% if site.headlight_analytics.enabled and site.headlight_analytics.website_id != '' %}
-<details class="small" aria-label="Lesestatistik">
-<summary style="cursor:pointer">Lesestatistik verwalten</summary>
-<p>Wir erfassen keine Namen oder E-Mail-Adressen. Die Statistik läuft ohne Tracking-Cookies. Umami misst Seitenaufrufe und Nutzung; du kannst die Messung jederzeit ausschalten. <a href="{{ '/lesestatistik/' | relative_url }}">Details zur Lesestatistik</a>.</p>
-<button id="analytics-start" type="button">Messung einschalten</button>
-<button id="analytics-stop" type="button" hidden>Messung ausschalten</button>
-<p id="analytics-status" role="status">Die Lesestatistik ist standardmäßig eingeschaltet. Zur Erfassung ist JavaScript erforderlich.</p>
+<footer class="site-footer"><div class="footer-inner"><p>{% if is_en %}Dudelytics · Understand the data. See the sources. Decide for yourself.{% else %}Dudelytics · Daten verstehen. Quellen sehen. Entscheidungen selbst treffen.{% endif %}</p>
+<p><a href="https://dudelytics.com/impressum/">{% if is_en %}Legal notice{% else %}Impressum{% endif %}</a> · <a href="{{ privacy_path | relative_url }}">{% if is_en %}Privacy &amp; readership statistics{% else %}Datenschutz &amp; Lesestatistik{% endif %}</a> · <a href="https://dudelytics.com/lizenzen/">{% if is_en %}Licences{% else %}Lizenzen{% endif %}</a> · <a href="{{ feed_path | relative_url }}">Atom{% if is_en %} feed{% else %}-Feed{% endif %}</a> · <a href="https://github.com/Dudelytics/krypto-headlight">GitHub</a></p>
+<p class="small">{% if is_en %}No investment advice. CoinGecko is a raw data provider, not the publisher or a sponsor. This report is hosted on GitHub Pages.{% else %}Keine Anlageberatung. CoinGecko ist Rohdatenanbieter, nicht Herausgeber oder Sponsor. Diese Berichtsseite wird bei GitHub Pages gehostet.{% endif %}</p>
+{% if site.headlight_analytics.enabled and site.headlight_analytics.website_id != '' %}
+<details class="small" aria-label="{% if is_en %}Readership statistics{% else %}Lesestatistik{% endif %}">
+<summary style="cursor:pointer">{% if is_en %}Manage readership statistics{% else %}Lesestatistik verwalten{% endif %}</summary>
+<p>{% if is_en %}We do not collect names or email addresses. Statistics run without tracking cookies. Umami measures page views and usage; you can switch measurement off at any time.{% else %}Wir erfassen keine Namen oder E-Mail-Adressen. Die Statistik läuft ohne Tracking-Cookies. Umami misst Seitenaufrufe und Nutzung; du kannst die Messung jederzeit ausschalten.{% endif %} <a href="{{ privacy_path | relative_url }}">{% if is_en %}Readership statistics details{% else %}Details zur Lesestatistik{% endif %}</a>.</p>
+<button id="analytics-start" type="button">{% if is_en %}Enable measurement{% else %}Messung einschalten{% endif %}</button>
+<button id="analytics-stop" type="button" hidden>{% if is_en %}Disable measurement{% else %}Messung ausschalten{% endif %}</button>
+<p id="analytics-status" role="status">{% if is_en %}Readership statistics are enabled by default. Measurement requires JavaScript.{% else %}Die Lesestatistik ist standardmäßig eingeschaltet. Zur Erfassung ist JavaScript erforderlich.{% endif %}</p>
 </details>
-<script id="headlight-analytics" defer src="{{ '/assets/analytics.js' | relative_url }}?v=default-on-2" data-website-id="{{ site.headlight_analytics.website_id | escape }}" data-script-url="{{ site.headlight_analytics.script_url | escape }}"></script>
+<script id="headlight-analytics" defer src="{{ '/assets/analytics.js' | relative_url }}?v=bilingual-1" data-website-id="{{ site.headlight_analytics.website_id | escape }}" data-script-url="{{ site.headlight_analytics.script_url | escape }}"></script>
 {% endif %}
 </div></footer>
 </body></html>
-
-

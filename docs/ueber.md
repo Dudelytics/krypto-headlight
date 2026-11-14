@@ -1,4 +1,5 @@
 ---
+translation_url: /en/about/
 title: "Über den Krypto-Headlight"
 permalink: /ueber/
 ---
@@ -54,3 +55,4 @@ Bitte bleibt sachlich. Spam, Werbung, persönliche Angriffe und private Daten k�
 Diese statische Seite läuft auf GitHub Pages. Für die Lesestatistik verwenden wir Umami ohne Tracking-Cookies. Die Messung lässt sich im Seitenfuß ausschalten; Einzelheiten stehen unter [Datenschutz & Lesestatistik](/lesestatistik/). GitHub verarbeitet bei der Auslieferung technische Zugriffsdaten nach seinen [Datenschutzinformationen](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). Der Kommentarlink öffnet GitHub; es wird kein externer Kommentarcode automatisch geladen.
 
 [Impressum](https://dudelytics.com/impressum/) · [Dudelytics-Datenschutz](https://dudelytics.com/datenschutz/)
+

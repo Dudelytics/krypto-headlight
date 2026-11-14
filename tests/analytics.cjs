@@ -1,13 +1,13 @@
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
 const source=fs.readFileSync(__dirname+'/../docs/assets/analytics.js','utf8');
-function setup({host='headlight.dudelytics.com',dnt=false,optout=false}={}) {
+function setup({host='headlight.dudelytics.com',dnt=false,optout=false,lang='de',path='/ausgaben/2026-10-31/'}={}) {
  const storage=new Map(optout?[['headlight-statistics-disabled','1']]:[]);
  let now=0,tick; const calls=[],scripts=[],events={};
  const nodes={}; for(const id of ['headlight-analytics','analytics-start','analytics-stop','analytics-status']) nodes[id]={dataset:{},addEventListener:(n,f)=>events[id+':'+n]=f};
  nodes['headlight-analytics'].dataset={websiteId:'12345678-1234-1234-1234-123456789abc',scriptUrl:'https://cloud.umami.is/script.js'};
  const window={addEventListener(){},umami:{track:p=>calls.push(p)}};
- const document={referrer:'https://example.com/private?q=secret',hidden:false,hasFocus:()=>true,getElementById:id=>nodes[id],querySelector:()=>({getBoundingClientRect:()=>({top:0,height:1000}),contains:()=>true}),createElement:()=>({dataset:{}}),head:{appendChild:s=>scripts.push(s)},addEventListener(){}};
- vm.runInNewContext(source,{document,window,location:{hostname:host,pathname:'/ausgaben/2026-10-31/',search:'?email=secret'},localStorage:{getItem:k=>storage.get(k),setItem:(k,v)=>storage.set(k,v),removeItem:k=>storage.delete(k)},navigator:{doNotTrack:dnt?'1':'0'},URL,performance:{now:()=>now},innerHeight:950,Promise,setInterval:f=>tick=f});
+ const document={documentElement:{lang},referrer:'https://example.com/private?q=secret',hidden:false,hasFocus:()=>true,getElementById:id=>nodes[id],querySelector:()=>({getBoundingClientRect:()=>({top:0,height:1000}),contains:()=>true}),createElement:()=>({dataset:{}}),head:{appendChild:s=>scripts.push(s)},addEventListener(){}};
+ vm.runInNewContext(source,{document,window,location:{hostname:host,pathname:path,search:'?email=secret'},localStorage:{getItem:k=>storage.get(k),setItem:(k,v)=>storage.set(k,v),removeItem:k=>storage.delete(k)},navigator:{doNotTrack:dnt?'1':'0'},URL,performance:{now:()=>now},innerHeight:950,Promise,setInterval:f=>tick=f});
  return {calls,scripts,nodes,document,storage,click:id=>events[id+':click']?.(),advance:n=>{for(let i=0;i<n;i++){now+=1000;tick?.()} }};
 }
 let s=setup(); assert.equal(s.scripts.length,1);assert.equal(s.calls.length,0);
@@ -19,3 +19,8 @@ s=setup({optout:true});assert.equal(s.scripts.length,0);s.click('analytics-start
 s=setup({dnt:true});s.click('analytics-start');assert.equal(s.scripts.length,0);
 s=setup({host:'preview.invalid'});s.click('analytics-start');assert.equal(s.scripts.length,0);
 console.log('PASS: default-on and persistent opt-out, payload minimization, one-shot thresholds, hidden tab, withdrawal, DNT, preview exclusion');
+
+
+s=setup({lang:'en',path:'/en/'});s.scripts[0].onload();assert.equal(s.calls[0].url,'/en/');assert.equal(s.nodes['analytics-status'].textContent,'Measurement is enabled for this page view.');s.advance(30);assert.equal(s.calls.filter(x=>x.name==='active_30s').length,1);
+s=setup({lang:'en',path:'/en/editions/2026-11-14/'});s.scripts[0].onload();assert.equal(s.calls[0].url,'/en/editions/2026-11-14/');
+console.log('PASS: English status, homepage engagement and edition path');
