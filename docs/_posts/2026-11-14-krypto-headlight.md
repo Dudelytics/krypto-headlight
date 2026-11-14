@@ -173,6 +173,6 @@ Offene Nachweise: Hyperliquids 126-%-Quote stammt aus einem veröffentlichten Be
 
 Zusätzlich ausgewertet: Bitcoin2Go vom 13. November, Capital-on-Chain vom 14. November, SPIEGEL „Die Lage am Morgen“ vom 13. und 14. November sowie aktuelle Handelsblatt-Briefings. Newsletter dienten der Themenrecherche; übernommene Sachangaben sind unmittelbar verlinkt. Persönliche E-Mail- und Abonnentendaten sind nicht Teil dieser Ausgabe. Offenlegung: Der Herausgeber hält selbst Kryptowerte; [Hinweis zu eigenen Positionen](/ueber/#eigene-positionen).
 
-**Herausgeber: Dudelytics. CoinGecko ist Rohdatenanbieter der Dudelytics-Indizes, weder Herausgeber noch Sponsor. Keine Kauf- oder Verkaufsempfehlung. **
+**Herausgeber: Dudelytics. CoinGecko ist Rohdatenanbieter der Dudelytics-Indizes, weder Herausgeber noch Sponsor. Keine Kauf- oder Verkaufsempfehlung.**
 
 </div>
