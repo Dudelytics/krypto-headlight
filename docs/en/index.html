@@ -10,6 +10,7 @@ translation_url: /
 <article>
 <p class="eyebrow">Latest edition · {{ latest.date | date: "%d %B %Y" }}</p>
 <h1>{{ latest.title | escape }}</h1>
+{% include newsletter.html placement="intro" %}
 <div class="prose">{{ latest.content }}</div>
 {% include discussion.html issue=latest %}
 </article>
@@ -18,3 +19,4 @@ translation_url: /
 <section class="hero"><p class="eyebrow">Public · Free · Every Saturday</p><h1>Crypto-Headlight</h1><p>The first English edition will appear here after editorial review.</p></section>
 {% endif %}
 {% include newsletter.html %}
+

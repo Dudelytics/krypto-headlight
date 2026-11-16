@@ -8,6 +8,7 @@ title: "Die Wochenlage des produktiven Kryptomarkts"
 <article>
 <p class="eyebrow">Aktuelle Ausgabe · {{ latest.date | date: "%d.%m.%Y" }}</p>
 <h1>{{ latest.title | escape }}</h1>
+{% include newsletter.html placement="intro" %}
 <div class="prose">{{ latest.content }}</div>
 <section class="card" aria-labelledby="kommentare"><h2 id="kommentare">Fragen, Kritik und Gegenbelege</h2><p>Diskutiere diese Ausgabe auf GitHub. Lesen ist ohne Anmeldung möglich; zum Kommentieren brauchst du ein GitHub-Konto. Bitte keine privaten Daten oder Zugangsdaten posten.</p>
 <a class="button" href="{{ latest.discussion_url | default: 'https://github.com/Dudelytics/krypto-headlight/discussions' | escape }}">{% if latest.discussion_url contains '/discussions/' %}Zur Diskussion dieser Ausgabe{% else %}Zu den Headlight-Diskussionen{% endif %}</a></section>
@@ -17,4 +18,5 @@ title: "Die Wochenlage des produktiven Kryptomarkts"
 <section class="hero"><p class="eyebrow">Öffentlich · Kostenlos · Jeden Samstag</p><h1>Krypto-Headlight</h1><p class="lead">Die Wochenlage des produktiven Kryptomarkts.</p><p>Die erste Markt-Ausgabe wird nach redaktioneller Prüfung hier veröffentlicht.</p></section>
 {% endif %}
 {% include newsletter.html %}
+
 

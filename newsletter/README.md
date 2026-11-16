@@ -43,3 +43,12 @@ Die englische Ausgabe und ihr eigenes Abo wurden auf Axels Auftrag eingerichtet 
 - HTML-Quellen: `newsletter/confirmation-en.html` und `newsletter/edition-en.html`. Öffentliche Signup-URL in `docs/_config.yml`.
 - **Kein Testversand und keine Kampagne versendet.** Echter DOI-Empfang, Bestätigung, doppelte Anmeldung sowie Abmeldung/Unterdrückung sind noch nicht Ende zu Ende nachgewiesen. CAPTCHA weiterhin nicht eingerichtet.
 - Kein kostenpflichtiges Upgrade und keine neue Versandautomatisierung. Die Regeln zur Freigabe jeder Ausgabe gelten auch auf Englisch: Kampagne mit konkretem Ausgabenlink und geprüftem Teaser vorbereiten, ausschließlich bestätigte und nicht abgemeldete Empfänger der englischen Liste wählen, Einstellungen prüfen, Test und Axels Freigabe vor dem Versand. Vorlagenaktivierung allein versendet keine E-Mails.
+
+
+
+## Leserführung geprüft – 16.11.2026
+Der öffentliche deutsche Link öffnet das kurze Brevo-Formular mit E-Mail-Pflichtfeld und nicht vorausgewählter Einwilligung. In den gespeicherten Einstellungen geprüft: Liste Krypto-Headlight, Double-Opt-in aktiv, keine unmittelbare Weiterleitung nach Formulareingabe, Bestätigungsziel /abo/bestaetigt/. Die deutsche Erfolgsrückmeldung fordert ausdrücklich den Klick in der Bestätigungsmail.
+
+Der Abo-Hinweis lag bisher erst nach der kompletten langen Ausgabe. Navigation und Artikeleröffnung erhalten deshalb einen direkten, sprachlich passenden Abo-Einstieg. Nutzen und Kostenfreiheit werden früher erklärt; der Hinweis am Ende erklärt beide Anmeldeschritte samt Spamordner. Es werden keine Ausgabentexte oder Quellwerte geändert, kein Kontakt importiert und keine Kampagne versendet.
+
+Dieser Abgleich ist kein neuer vollständiger Zustelltest: Echter Empfang, Bestätigung und Abmeldung einer neuen Testadresse bleiben offen. Der vorhandene deutsche Empfangsnachweis vom 31.10.2026 bleibt historisch; für Englisch gilt weiterhin die oben dokumentierte Nachweisgrenze. Ohne Besuchs- und Klickdaten lässt sich aus der leeren externen Aboliste keine Ursache oder Conversion-Rate belegen.

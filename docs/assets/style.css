@@ -49,3 +49,14 @@ article{padding-top:32px}
 .header-controls .language-switch{gap:4px;border-left:1px solid #765640;padding-left:12px}
 .language-switch a[aria-current="page"]{color:#fff;background:#8F351F}
 @media(max-width:520px){.header-controls{gap:4px}.header-controls .language-switch{padding-left:8px}}
+
+/* Offer the free email edition before a reader reaches the long report. */
+.newsletter-intro{display:flex;align-items:center;gap:24px;margin:24px 0 32px;padding:20px 24px;background:var(--accent-soft)}
+.newsletter-intro>div{flex:1;min-width:0}
+.newsletter-intro p{font-size:16px;line-height:1.5;margin:6px 0 0;max-width:64ch}
+.newsletter-intro .newsletter-intro-title{font-size:20px;font-weight:800;color:var(--ink);margin:0}
+.newsletter-intro .button{flex:0 1 300px;font-size:16px}
+.header-inner nav a.newsletter-nav{background:var(--accent);color:#fff}
+.header-inner nav a.newsletter-nav:hover{background:#A74227;color:#fff}
+@media(max-width:650px){.newsletter-intro{align-items:stretch;flex-direction:column;gap:16px;padding:20px}.newsletter-intro .button{flex:auto;width:100%}}
+

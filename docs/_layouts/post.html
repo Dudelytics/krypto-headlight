@@ -4,7 +4,9 @@ layout: default
 <article>
 <p class="eyebrow">{% if page.lang == 'en' %}Weekly briefing · {{ page.date | date: "%d %B %Y" }}{% else %}Wochenlage · {{ page.date | date: "%d.%m.%Y" }}{% endif %}</p>
 <h1>{{ page.title | escape }}</h1>
+{% include newsletter.html placement="intro" %}
 <div class="prose">{{ content }}</div>
 {% include discussion.html issue=page %}
 </article>
 {% include newsletter.html %}
+
