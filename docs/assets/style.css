@@ -60,3 +60,26 @@ article{padding-top:32px}
 .header-inner nav a.newsletter-nav:hover{background:#A74227;color:#fff}
 @media(max-width:650px){.newsletter-intro{align-items:stretch;flex-direction:column;gap:16px;padding:20px}.newsletter-intro .button{flex:auto;width:100%}}
 
+
+/* Headlight 2026-11-21 */
+.issue-2026-11-21 .data-card{background:#fffdf9;border:1px solid #ddd0c4;border-radius:.65rem;overflow:hidden;margin-block:1.4rem}
+.issue-2026-11-21 .chart,.issue-2026-11-21 .originals,.issue-2026-11-21 .benchmark{padding:clamp(.8rem,2.5vw,1.4rem)}
+.issue-2026-11-21 .chart h3,.issue-2026-11-21 .chart-sub{margin-top:0}
+.issue-2026-11-21 .originals,.issue-2026-11-21 .benchmark{border-top:1px solid #ddd0c4}
+.issue-2026-11-21 .original-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;align-items:start}
+.issue-2026-11-21 .original-grid figure{min-width:0;margin:0}
+.issue-2026-11-21 .original-grid img{display:block;width:100%;height:auto;border-radius:.4rem}
+.issue-2026-11-21 .chart-sub,.issue-2026-11-21 .table-note,.issue-2026-11-21 figcaption{font-size:.875rem;color:#5d5148}
+.issue-2026-11-21 .table-wrap{overflow-x:auto}
+.issue-2026-11-21 .table-wrap table{font-variant-numeric:tabular-nums;width:100%}
+.issue-2026-11-21 .table-wrap td{white-space:nowrap}
+.issue-2026-11-21 .table-note{padding-inline:1rem}
+.issue-2026-11-21 .legend{display:flex;flex-wrap:wrap;gap:.2rem 1rem;list-style:none;padding:0;font-size:.875rem}
+.issue-2026-11-21 .legend i{display:inline-block;width:1rem;border-top:3px solid var(--series);vertical-align:middle;margin-right:.35rem}
+.issue-2026-11-21 .legend i.dashed{border-top-style:dashed}
+.issue-2026-11-21 .bar-track{display:block;width:100%;height:.3rem;background:#efe5dc;border-radius:1rem}
+.issue-2026-11-21 .bar-track i{display:block;height:100%;background:#9b4933;border-radius:inherit}
+.issue-2026-11-21 .delta{font-weight:700;color:#8f351f}
+.issue-2026-11-21 .focus-row{background:#f6ede3}
+.issue-2026-11-21 .issue-toc{margin-block:1.3rem}
+@media(max-width:540px){.issue-2026-11-21 .original-grid{grid-template-columns:1fr}.issue-2026-11-21 .market-table{min-width:28rem}}
