@@ -9,7 +9,7 @@ description: "Der Nasdaq verlor am Freitag mehr als fünf Prozent, Bitcoin fiel 
 date: "2026-11-21 10:27:00 +0100"
 period: "15.–21. November 2026"
 data_as_of: "Wochenstichtag: 00:00 UTC · Stimmung: 08:32 Uhr MEZ"
-discussion_url: "https://github.com/Dudelytics/krypto-headlight/discussions"
+discussion_url: "https://github.com/Dudelytics/krypto-headlight/discussions/5"
 ---
 
 <div class="issue-2026-11-21">
